@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>entity.id.present</id>
+    <name>Entity ID</name>
+    <description>Check that every entity have an Identifier</description>
+    <type>findable</type>  
+    <level>REQUIRED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+    library(ragtop)
+    if(entitiesPresent==0) {
+      status <- "FAILURE"
+      message <- "No entity were found so it is impossible to get an entity ID"
+    }else{
+      missing = c()
+      j=0
+      # If only a single value is returned (vs type "list"), then convert to a list
+      # for easier processing
+      if(length(EntityID)==1){
+        EntityID = list(EntityID)
+      }
+      if(length(entityNames)==1){
+        entityNames = list(entityNames)
+      }
+      for (i in 1:length(EntityIDbool)){
+        if (!EntityIDbool[i]){
+          id=NA
+        }
+        else{
+          j=j+1
+          id = EntityID[j]
+        }
+        name = entityNames[i]
+        if(is.null(name)){
+          name=i
+        }
+        if(is.blank(id)){
+          missing=append(missing,name)
+        } 
+      }
+      if (length(missing) == 1){
+        message = paste0("This 1 entity (out of ",entitiesPresent, ") is missing an ID: ", missing[1])
+        status = "FAILURE"
+      }else if(length(missing) > 1 & length(missing) < 5){
+      message = paste0("These ",length(missing)," entities (out of ",entitiesPresent,") are missing an ID: ", paste(missing,collapse=","))
+      status="FAILURE"
+      }else if (length(missing) > 5){
+      message = paste0("These ",length(missing)," entities (out of ",entitiesPresent,") are missing an ID: ", paste(missing[1:5],collapse=",")," and ",length(missing)-5," others")
+      status="FAILURE"
+      }else{
+        message = "All entities have an ID specified."
+        status = "SUCCESS"
+      }
+  }
+  mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+      
+    ]]></code>
+    <selector>
+      <name>EntityID</name>
+      <xpath>
+      /eml/dataset/*/alternateIdentifier |
+      /eml/dataset/*[self::dataTable|self::spatialRaster|self::spatialVector|self::storedProcedure|self::view|self::otherEntity]/@id |
+      /eml/dataset/*/physical/distribution/online/url
+      </xpath>
+    </selector>
+    <selector>
+     <name>entityNames</name>
+     <xpath> /eml/dataset/*[self::dataTable|self::spatialRaster|self::spatialVector|self::storedProcedure|self::view|self::otherEntity]
+     </xpath>
+     <subSelector>
+        <name>name</name>
+        <xpath>./entityName</xpath>
+    </subSelector>
+  </selector>
+      <selector>
+      <name>EntityIDbool</name>
+      <xpath>
+      /eml/dataset/dataTable |
+      /eml/dataset/otherEntity |
+      /eml/dataset/spatialVector |
+      /eml/dataset/spatialRaster |
+      /eml/dataset/view</xpath>
+      <subSelector>
+        <name>ID</name>
+        <xpath>
+      boolean(./alternateIdentifier or
+      ./@id or
+      ./physical/distribution/online/url)
+      </xpath>
+      </subSelector>
+    </selector>
+    <selector>
+    <name>entitiesPresent</name>
+    <xpath>count(/eml/dataset/*[self::dataTable|self::spatialRaster|self::spatialVector|self::storedProcedure|self::view|self::otherEntity])
+    </xpath>
+  </selector>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    </mdq:check>
+    

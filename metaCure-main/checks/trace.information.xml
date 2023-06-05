@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>trace.information</id>
+    <name>Trace Information</name>
+    <description>Check that provenance information is present </description>
+    <type>reusable</type>  
+    <level>REQUIRED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+    library(ragtop)
+      if(!TraceInformation | is.blank(TraceInformation)) {
+        status <- "FAILURE"
+        message <- "Provenance Trace information was not found"
+      } else {
+        status <- "SUCCESS"
+        message <-"Provenance Trace information was found"
+      }
+      mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+      
+    ]]></code>
+    <selector>
+    <name>TraceInformation</name>
+    <xpath>
+    boolean(/eml/*/methods/methodStep/dataSource or
+          /eml/*/methods/methodStep/subStep/dataSource)
+  </xpath>
+    </selector>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    </mdq:check>
+    

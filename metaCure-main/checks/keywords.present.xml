@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>keywords.presence</id>
+    <name>Presence of Keywords</name>
+    <description>Check the presence of keywords</description>
+    <type>findable</type>  
+    <level>REQUIRED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+
+      # Check that <keyword> section(s) are presents for the dataset.
+      if(KeywordPresence<=0) {
+        status <- "FAILURE"
+        message <-"Keywords are missing."
+      } else {
+        status <- "SUCCESS"
+        message <-paste0(KeywordPresence," keywords were found.")
+      }
+      mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+    ]]></code>
+    <selector>
+    <name>KeywordPresence</name>
+    <xpath>count(/*[local-name() = 'eml']/dataset//keyword) </xpath>
+    </selector>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    </mdq:check>
+    

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>method.present</id>
+    <name>Check method</name>
+    <description>Check that the detailed method section is present</description>
+    <type>reusable</type>  
+    <level>REQUIRED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+    library(ragtop)
+
+      if (!MethodPresent) {
+        status <- "FAILURE"
+        message <-"No detailed methods were found."
+      } else if (is.blank(Method)){
+        status <- "FAILURE"
+        message <-"The detailed method section is blank"
+      }else {
+      status <- "SUCCESS"
+      message <-"A detailed method section was found"
+      }
+
+      mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+    ]]></code>
+	<selector>
+		<name>MethodPresent</name>
+		<xpath>boolean(/eml/dataset/methods/methodStep/description)</xpath>
+	</selector>
+		<selector>
+		<name>Method</name>
+		<xpath>/eml/dataset/methods/methodStep/description//text()[normalize-space()]</xpath>
+	</selector>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    </mdq:check>
+      

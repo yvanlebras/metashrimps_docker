@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>creator.id.present</id>
+    <name>Presence of Originators</name>
+    <description>Check that each creators have an ID</description>
+    <type>findable</type>  
+    <level>Required</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+if (!exists("creator")){
+  status = "FAILURE"
+  message <-"No creator were found so unable to check for creators IDs."
+} else{
+  missing = c()
+  j=0
+  creatorCount=0
+  # If only a single value is returned (vs type "list"), then convert to a list
+  # for easier processing
+  if(length(creatorID)==1){
+    creatorID = list(creatorID)
+  }
+  
+  if(length(creator)==1){
+    creator = list(creator)
+  } 
+
+    for (i in 1:length(creatorIDbool)){
+      creatorCount=creatorCount+1
+      if (creatorIDbool[i]==F){
+        id=NA
+      }else{
+        j=j+1
+        id = creatorID[j]
+      }
+      creator = creator[i]
+      
+      if(is.blank(id)){
+        missing=append(missing,creator)
+      }
+    }
+    if(length(missing) == 1){
+      message = paste0("This 1 creator (out of ",creatorCount," creators) doesn't have an ID : ", missing[1])
+      status = "FAILURE"
+      
+    }else if(length(missing) > 1 & length(missing) < 5){
+      message = paste0("These ",length(missing)," creators  (out of ",creatorCount," creators) don't have an ID: ", paste(missing,collapse=","))
+      status="FAILURE"
+    }else if (length(missing) > 5){
+      message = paste0("These ",length(missing)," creators  (out of ",creatorCount," creators) don't have an ID: ", paste(missing[1:5],collapse=",")," and ",length(missing)-5," other(s)")
+      status="FAILURE"
+    }else{
+      message = "All creators have an ID specified."
+      status = "SUCCESS"
+    }
+  }
+mdq_result <- list(status = status,
+                   output = list(list(value = message)))
+
+]]></code>
+<selector>
+<name>creator</name>
+<xpath>(/*[local-name() = 'eml']/dataset//creator) </xpath>
+</selector>
+<selector>
+<name>creatorID</name>
+<xpath>(/*[local-name() = 'eml']/dataset//creator/userId) </xpath>
+</selector>
+<selector>
+<name>creatorIDbool</name>
+<xpath>(/*[local-name() = 'eml']/dataset//creator) </xpath>
+<subSelector>
+  <name>...</name>
+  <xpath>boolean(./userId)</xpath>
+</subSelector>
+</selector>
+<dialect>
+<name>Ecological Metadata Language</name>
+<xpath>boolean(/*[local-name() = 'eml'])</xpath>
+</dialect>
+    </mdq:check>

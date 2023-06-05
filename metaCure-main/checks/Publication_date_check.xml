@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>PubDate.Check</id>
+    <name>Publication Date Check</name>
+    <description>Check if a publication date exists and is not in the future</description>
+    <type>findable</type>  
+    <level>REQUIRED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+    # Check that a <pubDate> section is present for the dataset.
+    if(!pubDatePresent) {
+      status <- "FAILURE"
+      message <-"The publication date is not present"
+    } else if (pubDate>Sys.Date()){
+      status <- "WARNING"
+        message <-paste0("The publication date ", pubDate," was found but is in the future.")
+    } else{
+      status <- "SUCCESS"
+        message <-paste0("The publication date ", pubDate," was found and is not in the future.")
+    }
+    mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+    ]]></code>
+    <selector>
+    <name>pubDatePresent</name>
+    <xpath>boolean(/*[local-name() = 'eml']/dataset/pubDate) </xpath>
+    </selector>
+    <selector>
+    <name>pubDate</name>
+    <xpath>(/*[local-name() = 'eml']/dataset/pubDate) </xpath>
+    </selector>
+   <dialect>
+      <name>Ecological Metadata Language</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+   </dialect>
+</mdq:check>

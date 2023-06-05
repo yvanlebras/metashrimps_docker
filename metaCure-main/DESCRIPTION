@@ -1,0 +1,19 @@
+Package: metaCure
+Type: Package
+Title: Check metadata quality
+Version: 0.1.0
+Authors@R: person("Tanguy", "Genthon", email = "tanguy.genthon22@gmail.com",
+                  role = c("aut", "cre"))
+Description: This package gives checks and functions and include an API checking the quality of metadatas using FAIR criterias
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.1)
+Imports:
+	stringr,
+	xml2,
+	metadig,
+	ggplot2,
+	broman,
+	dplyr
+RoxygenNote: 7.2.3

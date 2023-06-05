@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>Revision.Date</id>
+    <name>Check Revision Date</name>
+    <description>Check that a revision or creation date exists.</description>
+    <type>findable</type>  
+    <level>RECOMMENDED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+      if(!ChangeDate) {
+        status <- "WARNING"
+        message <-"No resource creation or revision date is present."
+      } else {
+        status <- "SUCCESS"
+        message <-"A resource creation or revision date is present."
+      }
+      mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+
+    ]]></code>
+    <selector>
+    <name>ChangeDate</name>
+    <xpath>boolean(/*[local-name() = 'eml']/*/maintenance/changeHistory/changeDate) </xpath>
+    </selector>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    </mdq:check>
+    

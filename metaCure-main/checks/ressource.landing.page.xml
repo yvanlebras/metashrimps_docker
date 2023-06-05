@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>resource.landingPage.present</id>
+    <name>Resource Landing Page Present</name>
+    <description>Check that a resource landing page exists and is resolvable.</description>
+    <type>accessible</type>
+    <level>REQUIRED</level>
+    <environment>python</environment>
+    <code><![CDATA[
+    library(ragtop)
+    library(httr)
+      displayLength = 20
+      # A resource landing page is not present
+      if (!datasetbool) {
+         message = "No resource landing page url was found."
+        status = "FAILURE"
+      }else if (is.blank(datasetLandingPage)){
+        message = "The resource langing page url is blank."   
+        status = "FAILURE"
+      }else{
+        # Check if variable type is a single string or arrayList
+        if(class(datasetLandingPage)=="character"){
+          output = paste0("The resource landing page url ",datasetLandingPage," was found")
+          url = datasetLandingPage
+          }else{
+          output = paste0("The resource landing page url ",datasetLandingPage[1]," was found (first of ",length(datasetLandingPage)," urls)")
+          url = datasetLandingPage[1]
+          }
+        
+      
+      
+        resolvable = url_exists(url)
+        if (resolvable){
+          message = paste0(output," and is resolvable.")
+          status = "SUCCESS"
+        }else{
+          message = paste0(output," but is not resolvable.")
+          status = "FAILURE"
+        }
+      }
+    mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+    ]]></code>
+    <selector>
+    <name>datasetLandingPage</name>
+    <xpath>
+    /eml/dataset/distribution/online/url[@function="information"] |
+    /*/distributionInfo/MD_Distribution/distributor/MD_Distributor/distributorTransferOptions/MD_DigitalTransferOptions/onLine/CI_OnlineResource[function/CI_OnLineFunctionCode/@codeListValue="information"]/linkage/URL/text()[normalize-space()] |
+    /*/distributionInfo/MD_Distribution/transferOptions/MD_DigitalTransferOptions/onLine/CI_OnlineResource[function/CI_OnLineFunctionCode='information']/linkage/URL/text()[normalize-space()] |
+    /*/identificationInfo/*/citation/CI_Citation/onlineResource/CI_OnlineResource[function/CI_OnLineFunctionCode='information']/linkage/URL/text()[normalize-space() ]
+  </xpath>
+    </selector>
+    <selector>
+    <name>datasetbool</name>
+    <xpath>
+    boolean(/eml/dataset/distribution/online/url[@function="information"] |
+    /*/distributionInfo/MD_Distribution/distributor/MD_Distributor/distributorTransferOptions/MD_DigitalTransferOptions/onLine/CI_OnlineResource[function/CI_OnLineFunctionCode/@codeListValue="information"]/linkage/URL/text()[normalize-space()] |
+    /*/distributionInfo/MD_Distribution/transferOptions/MD_DigitalTransferOptions/onLine/CI_OnlineResource[function/CI_OnLineFunctionCode='information']/linkage/URL/text()[normalize-space()] |
+    /*/identificationInfo/*/citation/CI_Citation/onlineResource/CI_OnlineResource[function/CI_OnLineFunctionCode='information']/linkage/URL/text()[normalize-space() ])
+  </xpath>
+    </selector>
+    <dialect>
+    <name>DataCite 4</name>
+    <xpath>boolean(/*[local-name() = 'resource'])</xpath>
+    </dialect>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    <dialect>
+    <name>ISO 19115 and ISO 19115-2 / ISO 19139, ISO 19139-2, ISO 19115-1, ISO 19115-3 </name>
+    <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    </mdq:check>
+    

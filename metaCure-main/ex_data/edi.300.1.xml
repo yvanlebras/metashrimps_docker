@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?><eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="doi:10.48502/xcah-3w89" system="urn:node:METACAT_TEST" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=Test,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>African rice population genomics dataset  or title of the article : "The Rise and Fall of African Rice Cultivation Revealed by Analysis of 246 New Genomes"</title>
+    <creator>
+      <individualName>
+        <givenName>Institut de Recherche pour le Developpement, UMR DIADE,  France</givenName>
+        <surName>.</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>SouthGreen Development Platform, Agropolis Campus, Montpellier, France</givenName>
+        <surName>.</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Africa Rice Center,  Benin</givenName>
+        <surName>.</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>CEA, Institut de Biologie Francais Jacob, Genoscope,  Evry, France</givenName>
+        <surName>.</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>CNRS, UMR 8030,Evry, France</givenName>
+        <surName>.</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Laboratoire de Biometrie et Biologie Evolutive, Lyon, France</givenName>
+        <surName>.</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Institut des Mondes Africains (IMAF), Paris, France</givenName>
+        <surName>.</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Institut de Biologie Computationnelle (IBC), Universite Montpellier, France</givenName>
+        <surName>.</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Universite Grenoble-Alpes, Grenoble, France</givenName>
+        <surName>.</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Universite de Montpellier, Montpellier, France</givenName>
+        <surName>.</surName>
+      </individualName>
+    </creator>
+    <pubDate>2019-11-18</pubDate>
+    <abstract>
+      <para>
+  African rice (Oryza glaberrima) was domesticated independently from
+  Asian rice. The geographical origin of its domestication remains
+  elusive. Using 246 new whole-genome sequences, we inferred the cradle
+  of its domestication to be in the Inner Niger Delta. Domestication was
+  preceded by a sharp decline of most wild populations that started more
+  than 10,000 years ago. The wild population collapse occurred during
+  the drying of the Sahara. This finding supports the hypothesis that
+  depletion of wild resources in the Sahara triggered African rice
+  domestication. African rice cultivation strongly expanded 2,000 years
+  ago. During the last 5 centuries, a sharp decline of its cultivation
+  coincided with the introduction of Asian rice in Africa. A gene,
+  PROG1, associated with an erect plant architecture phenotype, showed
+  convergent selection in two rice cultivated species, Oryza glaberrima
+  from Africa and Oryza sativa from Asia. In contrast, a shattering
+  gene, SH5, showed selection signature during African rice
+  domestication, but not during Asian rice domestication. Overall, our
+  genomic data revealed a complex history of African rice domestication
+  influenced by important climatic changes in the Saharan area, by the
+  expansion of African agricultural society, and by recent replacement
+  by another domesticated
+  species.https://doi.org/10.1016/j.cub.2018.05.066
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>whole genome sequencing</keyword>
+      <keyword>african rice</keyword>
+      <keyword>wild and cultivated</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>CES</keyword>
+      <keyword>use_case_PNDB</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Genetic composition</keyword>
+      <keywordThesaurus>EBV class</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Co-ancestry</keyword>
+      <keyword>Allelic diversity</keyword>
+      <keyword>Population genetic differentiation</keyword>
+      <keyword>Breed and variety diversity</keyword>
+      <keywordThesaurus>EBV</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data ("Data User" herein) is required
+  to cite it appropriately in any publication that results from its use.
+  The Data User should realize that these data may be actively used by
+  others for ongoing research and that coordination may be necessary to
+  prevent duplicate publication. The Data User is urged to contact the
+  authors of these data if any questions about methodology or results
+  occur. Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Africa</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-23.2666666666667</westBoundingCoordinate>
+          <eastBoundingCoordinate>63.5</eastBoundingCoordinate>
+          <northBoundingCoordinate>-45.0875</northBoundingCoordinate>
+          <southBoundingCoordinate>37.55</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1974</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2005</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Oryza</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Oryza barthii</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Oryza</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Oryza glaberrima</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Cubry</givenName>
+        <surName>P.</surName>
+      </individualName>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Vigouroux</givenName>
+        <surName>Y.</surName>
+      </individualName>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  level 3 _ Evaluation methods full sequencing / high coverage (average
+  37X) / population genomics //// We used 163 traditional cultivated
+  varieties of the African rice, O. glaberrima, sampled during the
+  period 1974 to 2005. The sampling covered West Africa exhaustively,
+  supplemented by a few samples from East Africa. 83 wild relatives, O.
+  barthii, were also sampled during the same period in Africa. We
+  possess original record files or copies of the original description
+  for the vast majority of the sampled individuals. From these original
+  sampling sheets, we retrieved the latitude and longitude whenever
+  possible (Table S1). We compared information from IRRI, AfricaRice,
+  various databases and our own to ensure consistency in the
+  coordinates. The discrepancies were resolved using the initial field
+  records. All samples were grown from seeds maintained in collection at
+  IRD Montpellier, France, for three weeks before proceeding with DNA
+  extraction. All varieties used for re-sequencing experiment were grown
+  in green-house facilities of the IRD Montpellier, France, for three
+  weeks before DNA extraction. Low quality clusters were filtered during
+  the sequencing run using Real Time Analysis (RTA) software. Filtering
+  steps were performed on all paired FASTQ files: Illumina adapters and
+  primers were removed, nucleotides with quality value &amp;amp;lt; 20 were
+  trimmed from both ends, and the sequences between the second unknown
+  nucleotide (N) and the end of the read were trimmed. Reads shorter
+  than 30 nucleotides after trimming were discarded. These trimming
+  steps were achieved using fastxtend
+  (http://www.genoscope.cns.fr/externe/fastxtend/) – a software based on
+  the FASTX library. The filtered reads and their mates mapped onto run
+  quality control sequences (PhiX genome) were removed using SOAP
+  aligner.
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>Feuille 1</entityName>
+      <entityDescription>Feuille 1</entityDescription>
+      <physical>
+        <objectName>passeport_data_F1.csv</objectName>
+        <size unit="bytes">15423</size>
+        <authentication method="MD5">73f81189b6e39a1e10b548cb4a8fc993</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://openstack-192-168-100-101.genouest.org/metacat/d1/mn/v2/object/urn:uuid:f8139382-c6b3-49ee-8e4a-ae4325c3f896</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ADN_code</attributeName>
+          <attributeDefinition>ID of the DNA sample</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ID of the DNA sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>species O. barthii = the wild form / O. glaberima = cultivated form</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species O. barthii = the wild form / O. glaberima = cultivated form</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Origin</attributeName>
+          <attributeDefinition>geographic localisation of the collection site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>geographic localisation of the collection site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ORSTOM_ID</attributeName>
+          <attributeDefinition>old ID for IRD accessions</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>old ID for IRD accessions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>IRRI_IRGC_accession_number</attributeName>
+          <attributeDefinition>IRRI ID</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5953</minimum>
+                  <maximum exclusive="false">103598104582104000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>IITA_TOG_accession_number</attributeName>
+          <attributeDefinition>IITA ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>IITA ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>latitude of the site of collection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-19.28</minimum>
+                  <maximum exclusive="false">17.58</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>longitude of the site of collection</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-16.64</minimum>
+                  <maximum exclusive="false">39.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Code_sequencage</attributeName>
+          <attributeDefinition>sequencing ID = OB_---W or OG_---</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sequencing ID = OB_---W or OG_---</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>246</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Feuille 2</entityName>
+      <entityDescription>Feuille 2</entityDescription>
+      <physical>
+        <objectName>passeport_data_F2.csv</objectName>
+        <size unit="bytes">17452</size>
+        <authentication method="MD5">32b980c9fa29fc56a9fa2978b43cf670</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://openstack-192-168-100-101.genouest.org/metacat/d1/mn/v2/object/urn:uuid:74246260-0c85-4de3-9991-03dabd2c5998</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Naz</attributeName>
+          <attributeDefinition>"=code sequencage" of file1</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>"=code sequencage" of file1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Name</attributeName>
+          <attributeDefinition>accession name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>accession name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>species O. barthii = the wild form / O. glaberima = cultivated form</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species O. barthii = the wild form / O. glaberima = cultivated form</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Country_of_collection</attributeName>
+          <attributeDefinition>geographic localisation of the collection site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>geographic localisation of the collection site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sample_ORSTOM_ID</attributeName>
+          <attributeDefinition>ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seed_ORSTOM_ID</attributeName>
+          <attributeDefinition>"= ORSTOM IDâ€&#157; file 1</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>"= ORSTOM IDâ€&#157; file 1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>IRRI_IRGC_acc</attributeName>
+          <attributeDefinition>IRRI ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>IRRI ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ID_from_Song_Ge_2011</attributeName>
+          <attributeDefinition>IITA ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>IITA ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>selected_accession_from_IRRI_B</attributeName>
+          <attributeDefinition>selected accession from IRRI B #</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4</minimum>
+                  <maximum exclusive="false">120</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Primary_origin</attributeName>
+          <attributeDefinition>?</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>latitude of the site of collection</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>latitude of the site of collection</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>longitude of the site of collection</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>longitude of the site of collection</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>Inconnue</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Inconnu_1</attributeName>
+          <attributeDefinition>?</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Inconnu_2</attributeName>
+          <attributeDefinition>?</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Inconnu_3</attributeName>
+          <attributeDefinition>?</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>222</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>Package Africrop/african_rice sur GitHub</entityName>
+      <entityDescription>Package Africrop/african_rice sur GitHub</entityDescription>
+      <physical>
+        <objectName>african_rice-master.zip</objectName>
+        <size unit="bytes">4886114</size>
+        <authentication method="MD5">2bb53938cf39cdf3ec2efdedc954b23c</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>unknown</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://github.com/Africrop/african_rice</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,1015 @@
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Water Interdisciplinary Biology and Ecology database “WIBE”: Towards FAIR, open and interdisciplinary data on biomarkers to monitor the ecological status of coastal waters. </title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="custom.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top"><div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#">Project name</a>
+</div>
+<div id="navbar" class="collapse navbar-collapse"><ul class="nav navbar-nav">
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#temporal">Temporal coverage</a></li>
+<li><a href="#geographic">Geographic coverage</a></li>
+<li><a href="#datatable">Data tables</a></li>
+<li><a href="#spatraster">Spatial Rasters</a></li>
+<li><a href="#spatvector">Spatial Vectors</a></li>
+<li><a href="#otherentity">Custom units</a></li>
+<li><a href="#otherentity">Other entities</a></li>
+</ul></div>
+</div></nav><div class="container" id="dataset_info"><div class="starter-template">
+<h1>Water Interdisciplinary Biology and Ecology database “WIBE”: Towards FAIR, open and interdisciplinary data on biomarkers to monitor the ecological status of coastal waters. </h1>
+<h3>2022-06-15</h3>
+<h4><a href="#datatable"><span class="glyphicon glyphicon-list-alt"></span>
+    Data table(s) <span class="badge">6</span></a></h4>
+<h4><a href="#spatraster"><span class="glyphicon glyphicon-list-alt"></span>
+    Spatial Raster(s) <span class="badge">0</span></a></h4>
+<h4><a href="#spatvector"><span class="glyphicon glyphicon-list-alt"></span>
+    Spatial Vector(s) <span class="badge">0</span></a></h4>
+<h4><a href="#otherentity"><span class="glyphicon glyphicon-list-alt"></span>
+    Other entity(ies) <span class="badge">2</span></a></h4>
+<h4>Abstract</h4>
+<div class="container"><div class="jumbotron"><p class="lead">The Water Interdisciplinary Biology and Ecology database “WIBE” database presents data from different scientific projects proposing the monitoring of the ecological status of waters by a multi-biomarker study. This database gathers biological data of selected bioindicator species and environmental contextual data. In this work, data on physico-chemical parameters and concentrations of trace elements and organic pollutants were collected in the waters as well as biomarkers of effect and exposure to pollutants in marine organisms. The collected data, after various analyses, were cleaned and reworked to meet FAIR and open data principles. We focused on developing a data dictionary linked to existing ontologies and compliant with standards in order to make it as reusable as possible for the ecotoxicology research community. All datasets are available on the public repository of the National Biodiversity Data Centre. The current dataset can be used by port and coastal water managers but also by marine ecotoxicology researchers who will benefit from the first, to our knowledge, completely open database on marine biomarkers allowing the monitoring of coastal water contamination and thus the proposal of remediation measures if necessary.
+</p></div></div>
+<h4>Metadata Provider</h4>
+<p> 
+  </p>
+<div class="container"><div class="panel-group"><div class="panel panel-default">
+<div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" href="#collapse1">Author list</a></h4></div>
+<div id="collapse1" class="panel-collapse collapse">
+<h4>Creators</h4>
+<ul class="list-group">
+<li class="list-group-item">Clémence 
+            Epinoux 
+            clemence.epinoux@gmail.com</li>
+<li class="list-group-item">Marine 
+            Barbarin 
+            marine.barbarin1@univ-lr.fr</li>
+<li class="list-group-item">Justine 
+            Castrec 
+            justine.castrec@gmail.com</li>
+<li class="list-group-item">Carine 
+            Churlaud 
+            carine.churlaud@univ-lr.fr</li>
+<li class="list-group-item">Mathilde 
+            Dabrowski 
+            mathildeBDP@hotmail.fr</li>
+<li class="list-group-item">Romain 
+            DAVID 
+            romain.david@erinha.eu</li>
+<li class="list-group-item">Quentin 
+            Fontaine 
+            quentin.fontaine@stareso.com</li>
+<li class="list-group-item">Angélique 
+            Fontanaud 
+            fontanaud@portlarochelle.com</li>
+<li class="list-group-item">Lovina 
+            Fullgrabe 
+            lovina.fullgrabe@stareso.com</li>
+<li class="list-group-item">Claire 
+            Gillet 
+            claire.gillet07@gmail.com</li>
+<li class="list-group-item">Sylvie 
+            Gobert 
+            Sylvie.Gobert@uliege.be</li>
+<li class="list-group-item">Valérie 
+            Huet 
+            valerie.huet@univ-lr.fr</li>
+<li class="list-group-item">Pierre 
+            Lejeune 
+            pierre.lejeune@stareso.com</li>
+<li class="list-group-item">Lise 
+            Le Vern 
+            lise.le-vern@outlook.fr</li>
+<li class="list-group-item">Bénédicte 
+            Madon 
+            benedicte.madon@univ-lr.fr</li>
+<li class="list-group-item">Michel 
+            Marengo 
+            michel.marengo@stareso.com</li>
+<li class="list-group-item">Cecilia 
+            Pignon-Mussaud 
+            cecilia.pignon-mussaud@univ-lr.fr</li>
+<li class="list-group-item">Marion 
+            Pillet 
+            marion.pillet@stareso.com</li>
+<li class="list-group-item">Justine 
+            Receveur 
+            justine.receveur@cedre.fr</li>
+<li class="list-group-item">Pierre 
+            Rideau 
+            rideau@portlarochelle.com</li>
+</ul>
+<h4>Associated parties</h4>
+<ul class="list-group">
+<li class="list-group-item">Marine 
+            Barbarin 
+            marine.barbarin1@univ-lr.fr</li>
+<li class="list-group-item">Justine 
+            Castrec 
+            justine.castrec@gmail.com</li>
+<li class="list-group-item">Quentin 
+            Fontaine 
+            quentin.fontaine@stareso.com</li>
+<li class="list-group-item">Lovina 
+            Fullgrabe 
+            lovina.fullgrabe@stareso.com</li>
+<li class="list-group-item">Marion 
+            Pillet 
+            marion.pillet@stareso.com</li>
+</ul>
+</div>
+</div></div></div>
+<h4>Keywords</h4>
+<p><ul><li>biomarker</li></ul><ul><li>marine</li></ul><ul><li>aquatic</li></ul><ul><li>water</li></ul><ul><li>port</li></ul><ul><li>pollution</li></ul><ul><li>Corsica</li></ul><ul><li>La Rochelle</li></ul><ul><li>ecotoxicology</li></ul><ul><li>interdisciplinary</li></ul><ul><li>WIBE</li></ul><ul><li>ecology</li></ul><ul><li>biology</li></ul><ul><li>FAIR principles</li></ul><ul><li>open science</li></ul><ul><li>database</li></ul></p>
+<h4>Annotations</h4>
+<p><ul><li>biomarker 
+<a href="http://purl.obolibrary.org/obo/CHEBI_59163">http://purl.obolibrary.org/obo/CHEBI_59163</a>
+</li></ul><ul><li>marine 
+<a href="http://vocabs.lter-europe.net/EnvThes/21804">http://vocabs.lter-europe.net/EnvThes/21804</a>
+</li></ul><ul><li>aquatic 
+<a href="http://vocabs.lter-europe.net/EnvThes/21785">http://vocabs.lter-europe.net/EnvThes/21785</a>
+</li></ul><ul><li>pollution 
+<a href="http://sweetontology.net/phenEnvirImpact/Pollution">http://sweetontology.net/phenEnvirImpact/Pollution</a>
+</li></ul><ul><li>corsica 
+<a href="http://purl.bioontology.org/ontology/RCD/Ua0BA">http://purl.bioontology.org/ontology/RCD/Ua0BA</a>
+</li></ul><ul><li>ecotoxicology 
+<a href="http://purl.bioontology.org/ontology/MESH/D054750">http://purl.bioontology.org/ontology/MESH/D054750</a>
+</li></ul><ul><li>interdisciplinary 
+<a href="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15428">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15428</a>
+</li></ul><ul><li>ecology 
+<a href="http://sweetontology.net/humanKnowledgeDomain/Ecology">http://sweetontology.net/humanKnowledgeDomain/Ecology</a>
+</li></ul><ul><li>biology 
+<a href="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16345">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16345</a>
+</li></ul><ul><li>FAIR data 
+<a href="http://edamontology.org/topic_4012">http://edamontology.org/topic_4012</a>
+</li></ul><ul><li>open science 
+<a href="http://edamontology.org/topic_4010">http://edamontology.org/topic_4010</a>
+</li></ul><ul><li>database 
+<a href="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15426">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15426</a>
+</li></ul></p>
+</div></div>
+<div class="container" id="temporal">
+<h3>
+<span class="glyphicon glyphicon-time"></span>
+ Temporal coverage</h3>
+<table class="table table-striped">
+<tr>
+<th>Start date</th>
+<th>End date</th>
+</tr>
+<tr>
+<td>2019-06-03</td>
+<td>2022-12-31</td>
+</tr>
+</table>
+</div>
+<div class="container" id="geographic">
+<h3>
+<span class="glyphicon glyphicon-globe"></span>
+         Geographic coverage
+      </h3>
+<div class="embed-responsive embed-responsive-4by3"><iframe class="embed-responsive-item" src="map.html" style="padding:50px"></iframe></div>
+<div w3-include-html="map.html"></div>
+<div class="row">
+<div class="col-sm-3">
+<p><b>Calvi_port</b></p>
+<p>
+                        West: 8.76163<br>
+                        East: 8.76163<br>
+                        North: 42.56726<br>
+                        South: 42.56726</p>
+</div>
+<div class="col-sm-3">
+<p><b>Calvi_fairing</b></p>
+<p>
+                        West: 8.75694<br>
+                        East: 8.75694<br>
+                        North: 42.56359<br>
+                        South: 42.56359</p>
+</div>
+<div class="col-sm-3">
+<p><b>Calvi_oil</b></p>
+<p>
+                        West: 8.75768<br>
+                        East: 8.75768<br>
+                        North: 42.56439<br>
+                        South: 42.56439</p>
+</div>
+<div class="col-sm-3">
+<p><b>Ile_rousse_port</b></p>
+<p>
+                        West: 8.93639<br>
+                        East: 8.93639<br>
+                        North: 42.64151<br>
+                        South: 42.64151</p>
+</div>
+<div class="col-sm-3">
+<p><b>Ile_rousse_fairing</b></p>
+<p>
+                        West: 8.93554<br>
+                        East: 8.93554<br>
+                        North: 42.64023<br>
+                        South: 42.64023</p>
+</div>
+<div class="col-sm-3">
+<p><b>Ile_rousse_oil</b></p>
+<p>
+                        West: 8.9359129<br>
+                        East: 8.9359129<br>
+                        North: 42.6406397<br>
+                        South: 42.6406397</p>
+</div>
+<div class="col-sm-3">
+<p><b>St_florent_port</b></p>
+<p>
+                        West: 9.30031<br>
+                        East: 9.30031<br>
+                        North: 42.67993<br>
+                        South: 42.67993</p>
+</div>
+<div class="col-sm-3">
+<p><b>St_florent_fairing</b></p>
+<p>
+                        West: 9.3009414<br>
+                        East: 9.3009414<br>
+                        North: 42.6798025<br>
+                        South: 42.6798025</p>
+</div>
+<div class="col-sm-3">
+<p><b>St_florent_oil</b></p>
+<p>
+                        West: 9.29801<br>
+                        East: 9.29801<br>
+                        North: 42.68093<br>
+                        South: 42.68093</p>
+</div>
+<div class="col-sm-3">
+<p><b>STARESO_port</b></p>
+<p>
+                        West: 8.72542<br>
+                        East: 8.72542<br>
+                        North: 42.58044<br>
+                        South: 42.58044</p>
+</div>
+<div class="col-sm-3">
+<p><b>Diana_mussel_farm</b></p>
+<p>
+                        West: 9.536647<br>
+                        East: 9.5366473<br>
+                        North: 42.131517<br>
+                        South: 42.131517</p>
+</div>
+<div class="col-sm-3">
+<p><b>L'Houmeau_marsh_reference</b></p>
+<p>
+                        West: -1.19539<br>
+                        East: -1.19539<br>
+                        North: 46.20382<br>
+                        South: 46.20382</p>
+</div>
+<div class="col-sm-3">
+<p><b>Minimes_fairing</b></p>
+<p>
+                        West: -1.16187<br>
+                        East: -1.16187<br>
+                        North: 46.14675<br>
+                        South: 46.14675</p>
+</div>
+<div class="col-sm-3">
+<p><b>Minimes_rain_waters</b></p>
+<p>
+                        West: -1.16605<br>
+                        East: -1.16605<br>
+                        North: 46.14143<br>
+                        South: 46.14143</p>
+</div>
+<div class="col-sm-3">
+<p><b>Minimes_oil</b></p>
+<p>
+                        West: -1.16749<br>
+                        East: -1.16749<br>
+                        North: 46.14688<br>
+                        South: 46.14688</p>
+</div>
+</div>
+</div>
+<div class="container" id="taxonomic">
+<h3>
+<span class="glyphicon glyphicon-tree-deciduous"></span>
+Taxonomic coverage</h3>
+<div class="table-responsive"><table class="table table-striped">
+<tr>
+<th>Family</th>
+<th>Genus</th>
+<th>Species</th>
+<th>Common name</th>
+</tr>
+<tr>
+<td>Holothuriidae</td>
+<td>Holothuria</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Pectinidae</td>
+<td>Mimachlamys</td>
+<td>Mimachlamys varia</td>
+<td></td>
+</tr>
+<tr>
+<td>Mytilidae</td>
+<td>Mytilus</td>
+<td>Mytilus galloprovincialis</td>
+<td></td>
+</tr>
+<tr>
+<td>Pyronemataceae</td>
+<td>Patella</td>
+<td></td>
+<td></td>
+</tr>
+</table></div>
+</div>
+<div class="container" id="datatable">
+<h3>
+<span class="glyphicon glyphicon-list-alt"></span>
+ Data tables</h3>
+<br><tr><h4>
+<td>Field_organisms_samples.csv</td>
+<td>, 927 records</td>,
+      <td>Content of Field_organisms_samples.csv</td>
+</h4></tr>
+<br><tr>
+    Physical: Field_organisms_samples.csv</tr>
+<div class="table-responsive"><table class="table table-striped">
+<tr>
+<th>attribute name</th>
+<th>definition</th>
+<th>format, unit or codes</th>
+</tr>
+<tr>
+<td>Field_organism_sample_ID</td>
+<td>Unique identifier of the collected organism or pool of organisms.</td>
+<td></td>
+</tr>
+<tr>
+<td>Fieldwork_ID</td>
+<td>Unique identifier of the fieldwork carried out on a specific date and located at a specific station.</td>
+<td></td>
+</tr>
+<tr>
+<td>Field_organism_sample_species_name</td>
+<td>Species name of the sampled organism if known. If the species is not known, the genus name followed by sp. is used.</td>
+<td>Holothuria sp. = Value: Holothuria sp. for attribute: Field_organism_sample_species_name Mimachlamys varia = Value: Mimachlamys varia for attribute: Field_organism_sample_species_name Mytilus galloprovincialis = Value: Mytilus galloprovincialis for attribute: Field_organism_sample_species_name Patella sp. = Value: Patella sp. for attribute: Field_organism_sample_species_name </td>
+</tr>
+<tr>
+<td>TAXREF_ID</td>
+<td>Identifier of the sampled organism species if known according to the taxonomic repository TAXREF. If the species is not known, the genus given by the TAXREF is used, followed by sp..</td>
+<td>Holothuria sp. = Value: Holothuria sp. for attribute: TAXREF_ID Mimachlamys varia = Value: Mimachlamys varia for attribute: TAXREF_ID Mytilus galloprovincialis = Value: Mytilus galloprovincialis for attribute: TAXREF_ID Patella sp. = Value: Patella sp. for attribute: TAXREF_ID </td>
+</tr>
+<tr>
+<td>Lab_pool_ID</td>
+<td>Unique identifier of the pool of organism(s).</td>
+<td></td>
+</tr>
+</table></div>
+<br><tr><h4>
+<td>Fieldwork.csv</td>
+<td>, 151 records</td>,
+      <td>Content of Fieldwork.csv</td>
+</h4></tr>
+<br><tr>
+    Physical: Fieldwork.csv</tr>
+<div class="table-responsive"><table class="table table-striped">
+<tr>
+<th>attribute name</th>
+<th>definition</th>
+<th>format, unit or codes</th>
+</tr>
+<tr>
+<td>Fieldwork_ID</td>
+<td>Unique identifier of the fieldwork carried out on a specific date and located at a specific station.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sampling_station_ID</td>
+<td>Accurate sampling location in a port.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sampling_date</td>
+<td>Date of the sampling.</td>
+<td>YYYY-MM-DD</td>
+</tr>
+<tr>
+<td>Project_ID</td>
+<td>Acronym of the monetary fund used by the project linked to the identifying number of the project given by the monetary fund.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sampling_month_value</td>
+<td>Month of the year in which the sampling took place.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sampling_year_value</td>
+<td>Year in which the sampling took place.</td>
+<td>YYYY</td>
+</tr>
+</table></div>
+<br><tr><h4>
+<td>Project.csv</td>
+<td>, 2 records</td>,
+      <td>Content of Project.csv</td>
+</h4></tr>
+<br><tr>
+    Physical: Project.csv</tr>
+<div class="table-responsive"><table class="table table-striped">
+<tr>
+<th>attribute name</th>
+<th>definition</th>
+<th>format, unit or codes</th>
+</tr>
+<tr>
+<td>Project_ID</td>
+<td>Acronym of the monetary fund used by the project linked to the identifying number of the project given by the monetary fund.</td>
+<td></td>
+</tr>
+<tr>
+<td>Project_acronym</td>
+<td>Acronym of the scientific project from which the data are drawn.</td>
+<td></td>
+</tr>
+<tr>
+<td>Project_name</td>
+<td>Full name of the scientific project from which the data are drawn.</td>
+<td></td>
+</tr>
+<tr>
+<td>Project_number_value</td>
+<td>Identifying number of the scientific project from which the data are drawn given by the monetary fund.</td>
+<td></td>
+</tr>
+<tr>
+<td>Project_funding_name</td>
+<td>Origin of the monetary fund used by the project.</td>
+<td></td>
+</tr>
+<tr>
+<td>Project_coordinator_name</td>
+<td>Name of the project coordinator.</td>
+<td>La Rochelle Université = Value: La Rochelle Université for attribute: Project_coordinator_name </td>
+</tr>
+<tr>
+<td>Project_coordinator_activity_keywords</td>
+<td>Field of work of the project coordinator.</td>
+<td></td>
+</tr>
+<tr>
+<td>Project_beginning_date</td>
+<td>Start date of the project.</td>
+<td>YYYY-MM-DD</td>
+</tr>
+<tr>
+<td>Project_end_date</td>
+<td>Date of the project completion.</td>
+<td>YYYY-MM-DD</td>
+</tr>
+</table></div>
+<br><tr><h4>
+<td>Sampling_stations.csv</td>
+<td>, 15 records</td>,
+      <td>Sampling_stations.csv</td>
+</h4></tr>
+<br><tr>
+    Physical: Sampling_stations.csv</tr>
+<div class="table-responsive"><table class="table table-striped">
+<tr>
+<th>attribute name</th>
+<th>definition</th>
+<th>format, unit or codes</th>
+</tr>
+<tr>
+<td>Sampling_station_ID</td>
+<td>Accurate sampling location in a site.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sampling_station_latitude_value</td>
+<td>Latitude of the sampling station.</td>
+<td>degree</td>
+</tr>
+<tr>
+<td>Sampling_station_longitude_value</td>
+<td>Longitude of the sampling station.</td>
+<td>degree</td>
+</tr>
+<tr>
+<td>Sampling_station_geonames_name</td>
+<td>Longitude of the sampling station.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sampling_station_common_name</td>
+<td>Name of the location of the sampling used by the researchers in their publications.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sampling_station_administrator_name</td>
+<td>First name and surname of the location administrator.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sampling_station_label_name</td>
+<td>If applicable, the name of the environmental label(s) obtained by the location.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sampling_station_berth_number</td>
+<td>Number of berths in the port in 2018 according to the port administrator.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sampling_station_municipality_name</td>
+<td>Municipality in which the location where the sampling took place is located.</td>
+<td></td>
+</tr>
+</table></div>
+<br><tr><h4>
+<td>TAXREF.csv</td>
+<td>, 4 records</td>,
+      <td>Content of TAXREF.csv</td>
+</h4></tr>
+<br><tr>
+    Physical: TAXREF.csv</tr>
+<div class="table-responsive"><table class="table table-striped">
+<tr>
+<th>attribute name</th>
+<th>definition</th>
+<th>format, unit or codes</th>
+</tr>
+<tr>
+<td>TAXREF_ID</td>
+<td>Identifier of the sampled organism species if known according to the taxonomic repository TAXREF. If the species is not known, the genus given by the TAXREF is used, followed by sp..</td>
+<td></td>
+</tr>
+</table></div>
+<br><tr><h4>
+<td>Water_samples_measurements.csv</td>
+<td>, 133 records</td>,
+      <td>Water_samples_measurements.csv</td>
+</h4></tr>
+<br><tr>
+    Physical: Water_samples_measurements.csv</tr>
+<div class="table-responsive"><table class="table table-striped">
+<tr>
+<th>attribute name</th>
+<th>definition</th>
+<th>format, unit or codes</th>
+</tr>
+<tr>
+<td>Water_sample_ID</td>
+<td>Unique identifier of a water sample.</td>
+<td></td>
+</tr>
+<tr>
+<td>Fieldwork_ID</td>
+<td>Unique identifier of the fieldwork carried out on a specific date and located at a specific station.</td>
+<td></td>
+</tr>
+<tr>
+<td>Water_subsurface_temperature_celsius</td>
+<td>Temperature of the subsurface water at the sampling station measured in celsius degrees.</td>
+<td>celsius</td>
+</tr>
+<tr>
+<td>Water_subsurface_salinity_psu</td>
+<td>Salinity of the subsurface water at the sampling station measured in practical salinity unit.</td>
+<td>practicalSalinityUnit</td>
+</tr>
+<tr>
+<td>Water_subsurface_dissolved_oxygen_mg_per_L</td>
+<td>The concentration of oxygen in the subsurface water in mg per liter of water measured at the sampling station.</td>
+<td>milligramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_subsurface_pH</td>
+<td>The chemical activity of the protons in the subsurface water at the sampling station.</td>
+<td>dimensionless</td>
+</tr>
+<tr>
+<td>Water_subsurface_turbidity_fnu</td>
+<td>Material content of the subsurface water at the sampling station measured in Formazin Nephelometric Unit.</td>
+<td>formazineNephelometricUnit</td>
+</tr>
+<tr>
+<td>Water_subsurface_chlorophyll_a_concentration_µg_per_L</td>
+<td>Concentration of chlorophyll a measured in microgram per liter of subsurface water taken at the sampling station.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_subsurface_nitrite_concentration_µM</td>
+<td>Concentration of nitrite measured in micromol per liter of subsurface water taken at the sampling station.</td>
+<td>micromolePerLiter</td>
+</tr>
+<tr>
+<td>Water_subsurface_nitrate_concentration_µM</td>
+<td>Concentration of nitrate measured in micromol per liter of subsurface water taken at the sampling station.</td>
+<td>micromolePerLiter</td>
+</tr>
+<tr>
+<td>Water_subsurface_silica_concentration_µM</td>
+<td>Concentration of silica measured in micromol per liter of subsurface water taken at the sampling station.</td>
+<td>micromolePerLiter</td>
+</tr>
+<tr>
+<td>Water_subsurface_phosphate_concentration_µM</td>
+<td>Concentration of phosphate measured in micromol per liter of subsurface water.</td>
+<td>micromolePerLiter</td>
+</tr>
+<tr>
+<td>Water_subsurface_ammonium_concentration_µM</td>
+<td>Concentration of ammonium measured in micromol per liter of subsurface water taken at the sampling station.</td>
+<td>micromolePerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Ag_concentration_µg_per_L</td>
+<td>Concentration of silver in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Al_concentration_µg_per_L</td>
+<td>Concentration of aluminium in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_As_concentration_µg_per_L</td>
+<td>Concentration of arsenic in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Ba_concentration_µg_per_L</td>
+<td>Concentration of barium in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Cd_concentration_µg_per_L</td>
+<td>Concentration of cadmium in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Co_concentration_µg_per_L</td>
+<td>Concentration of cobalt in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Cr_concentration_µg_per_L</td>
+<td>Concentration of chromium in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Cu_concentration_µg_per_L</td>
+<td>Concentration of copper in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Fe_concentration_µg_per_L</td>
+<td>Concentration of iron in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_In_concentration_µg_per_L</td>
+<td>Concentration of indium in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Mn_concentration_µg_per_L</td>
+<td>Concentration of manganese in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Mo_concentration_µg_per_L</td>
+<td>Concentration of molybdenum in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Ni_concentration_µg_per_L</td>
+<td>Concentration of nickel in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Pb_concentration_µg_per_L</td>
+<td>Concentration of lead in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Sb_concentration_µg_per_L</td>
+<td>Concentration of tin in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Se_concentration_µg_per_L</td>
+<td>Concentration of selenium in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Sn_concentration_µg_per_L</td>
+<td>Concentration of antimony in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_V_concentration_µg_per_L</td>
+<td>Concentration of vanadium in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_Zn_concentration_µg_per_L</td>
+<td>Concentration of zinc in microgram per liter of surface water.</td>
+<td>microgramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_naphthalene_concentration_ng_per_L</td>
+<td>Concentration of naphthalene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C1_naphthalene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. naphthalene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the napthalene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C2_naphthalene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. naphthalene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the napthalene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C3_naphthalene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. naphthalene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the napthalene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_benzothiophene_concentration_ng_per_L</td>
+<td>Concentration of benzothiophene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C1_benzothiophene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. benzothiophene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the benzothiophene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C2_benzothiophene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. benzothiophene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the benzothiophene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C3_benzothiophene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. benzothiophene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the benzothiophene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_biphenyl_concentration_ng_per_L</td>
+<td>Concentration of biphenyl in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_acenapthtylene_concentration_ng_per_L</td>
+<td>Concentration of acenapthtylene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_acenaphthene_concentration_ng_per_L</td>
+<td>Concentration of acenaphtene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_fluorene_concentration_ng_per_L</td>
+<td>Concentration of fluorene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C1_fluorene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. fluorene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the fluorene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C2_fluorene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. fluorene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the fluorene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C3_fluorene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. fluorene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the fluorene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_phenanthrene_concentration_ng_per_L</td>
+<td>Concentration of phenanthrene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_anthracene_concentration_ng_per_L</td>
+<td>Concentration of anthracene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C1_phenanthrene_and_anthracene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. phenanthrene or anthracene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the phenanthrene or the anthracene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C2_phenanthrene_and_anthracene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. phenanthrene or anthracene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the phenanthrene or the anthracene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C3_phenanthrene_and_anthracene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. phenanthrene or anthracene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the phenanthrene or the anthracene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_dibenzothiophene_concentration_ng_per_L</td>
+<td>Concentration of dibenzothiophene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C1_dibenzothiophene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. dibenzothiophene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the dibenzothiophene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C2_dibenzothiophene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. dibenzothiophene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the dibenzothiophene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C3_dibenzothiophene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. dibenzothiophene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the dibenzothiophene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_fluoranthene_concentration_ng_per_L</td>
+<td>Concentration of fluoranthene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_pyrene_concentration_ng_per_L</td>
+<td>Concentration of pyrene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C1_fluoranthene_and_pyrene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. fluoranthene or pyrene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the fluoranthene or the pyrene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C2_fluoranthene_and_pyrene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. fluoranthene or pyrene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the fluoranthene or the pyrene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C3_fluoranthene_and_pyrene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. fluoranthene or pyrene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the fluoranthene or the pyrene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_benz_a_anthracene_concentration_ng_per_L</td>
+<td>Concentration of benz[a]anthracene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_chrysene_concentration_ng_per_L</td>
+<td>Concentration of chrysene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C1_chrysene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. chrysene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the chrysene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C2_chrysene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. chrysene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the chrysene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_C3_chrysene_concentration_ng_per_L</td>
+<td>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. chrysene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the chrysene.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_benzo_b_k_fluranthene_concentration_ng_per_L</td>
+<td>Concentration of benzo[b+k]fluranthene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_benzo_e_pyrene_concentration_ng_per_L</td>
+<td>Concentration of benzo[e]pyrene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_benzo_a_pyrene_concentration_ng_per_L</td>
+<td>Concentration of benzo[a]pyrene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_perylene_concentration_ng_per_L</td>
+<td>Concentration of perylene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_indeno_1_2_3_cd_pyrene_concentration_ng_per_L</td>
+<td>Concentration of indeno[1,2,3-cd]pyrene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_dibenz_a_h_anthracene_concentration_ng_per_L</td>
+<td>Concentration of dibenz[a,h]pyrene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_surface_benzo_ghi_perylene_concentration_ng_per_L</td>
+<td>Concentration of benzo[ghi]perylene in nanogram per liter of surface water.</td>
+<td>nanogramsPerLiter</td>
+</tr>
+<tr>
+<td>Water_measurements_protocol_DOI</td>
+<td>Digital object identifier of the publication where the protocol followed for the water sampling may be found.</td>
+<td></td>
+</tr>
+</table></div>
+</div>
+<div class="container" id="spatraster"><h3>
+<span class="glyphicon glyphicon-list-alt"></span>
+ Spatial Rasters</h3></div>
+<div class="container" id="spavector"><h3>
+<span class="glyphicon glyphicon-list-alt"></span>
+ Spatial Vectors</h3></div>
+<div class="container" id="units">
+<h3>
+<span class="glyphicon glyphicon-glass"></span>
+ Custom units</h3>
+<table class="table">
+<tr>
+<th>unit name</th>
+<th>parent SI unit</th>
+<th>unit type</th>
+<th>description</th>
+</tr>
+<tr>
+<td>practicalSalinityUnit</td>
+<td></td>
+<td>dimensionless</td>
+<td></td>
+</tr>
+<tr>
+<td>formazineNephelometricUnit</td>
+<td></td>
+<td>dimensionless</td>
+<td></td>
+</tr>
+<tr>
+<td>micromolePerLiter</td>
+<td>molePerLiter</td>
+<td>spatialDensity</td>
+<td></td>
+</tr>
+<tr>
+<td>nanogramsPerLiter</td>
+<td>gramsPerLiter</td>
+<td>spatialDensity</td>
+<td></td>
+</tr>
+</table>
+</div>
+<div class="container" id="otherentity">
+<h3>
+<span class="glyphicon glyphicon-list-alt"></span>
+          Other entities
+       </h3>
+<table class="table">
+<br><tr><td>ConceptualDataModel.jpg</td></tr>
+<br><tr><td>WIBE_Data_Dictionary.csv</td></tr>
+</table>
+</div>
+<div class="container">
+<h4>Intellectual Rights</h4>
+<p>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+  </p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+<footer><div class="copyright"><p>Development supported by <a href="https://ropensci.org/"><img src="http://unconf17.ropensci.org/images/ropensci_small.png" height="35"></a></p></div>
+<div class="madeby">
+        created with <a href="https://github.com/ropenscilabs/emldown">emldown</a>
+</div></footer>
+</html>

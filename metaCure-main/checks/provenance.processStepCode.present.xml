@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>provenance.processStepCode.present</id>
+    <name>Provenance Process Step Code Present</name>
+    <description>Check that provenance process step software is specified.</description>
+    <type>reusable</type>
+    <level>REQUIRED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+      library(ragtop)
+      # Provenance step source code is not present
+      if (!StepCodePresence){
+        message = "No provenance process step source code (software) sections were found."
+        status = "FAILURE"
+      }else{
+        if (is.blank(provenanceProcessStepCode)){
+          message = "The provenance process step code is blank."   
+          status = "FAILURE"
+        }else{
+          # Check if provenance process step code is a single string or arrayList
+            if(class(provenanceProcessStepCode)== "character"){
+              message = paste0("Provenance process step code (software) ",provenanceProcessStepCode," was found")
+            }
+            else if (class(provenanceProcessStepCode)== "list"){
+              message = paste0("A provenance process step code (software) ",provenanceProcessStepCode[1]," was found (first of ",length(provenanceProcessStepCode),")")
+            }else{
+            message = paste0("Provenance process step code (software) ",provenanceProcessStepCode," was found")
+          }
+          status = "SUCCESS"
+      }
+    }
+    mdq_result <- list(status = status,output = list(list(value = message)))
+            
+      
+    ]]></code>
+    <selector>
+    <name>StepCodePresence</name>
+    <xpath>boolean(/eml/*/methods/methodStep/software)</xpath>
+    </selector>
+    <selector>
+    <name>provenanceProcessStepCode</name>
+    <xpath>/eml/*/methods/methodStep/software//text()[normalize-space()]</xpath>
+    </selector>
+    <dialect>
+    <name>DataCite 4</name>
+    <xpath>boolean(/*[local-name() = 'resource'])</xpath>
+    </dialect>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    <dialect>
+    <name>ISO 19115 and ISO 19115-2 / ISO 19139, ISO 19139-2, ISO 19115-1, ISO 19115-3 </name>
+    <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    </mdq:check>
+    

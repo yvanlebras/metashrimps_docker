@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<check>
+   <id>Attribute.List</id>
+   <name>Attribute List</name>
+   <description>Checks to see if at least one Attribute List concept exists.</description>
+   <type>reusable</type>
+   <level>OPTIONAL</level>
+   <environment>rscript</environment>
+   <code><![CDATA[
+  if (!AttributeList){
+    status <- "WARNING"
+    message <- "AttributeList concept is not present"
+  } else {
+    status <- "SUCCESS"
+    message <- "The concept AttributeList is present."
+  }
+  mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+      ]]></code>
+   <selector>
+      <name>AttributeList</name>
+      <xpath>boolean(/eml/*/dataTable/attributeList)</xpath>
+   </selector>
+   <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+   </dialect>
+
+</check>

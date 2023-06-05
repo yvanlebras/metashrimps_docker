@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>entity.attributeUnits.present</id>
+    <name>Entity Attribute Units Defined</name>
+    <description>Check that units are defined for each attribute that should have them.</description>
+    <type>reusable</type>
+    <level>REQUIRED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+      library(ragtop)
+       #Check first if attribute are present.
+      if (!attributesPresent){
+        status = "FAILURE"
+        message <-"No attributes were found so unable to check attribute units."
+      } else{
+        attributeCount = 0
+        missing = c()
+        j=0
+        # If only a single value is returned (vs type "list"), then convert to a list
+        # for easier processing
+        if(length(attributeUnits)==1){
+          attributeUnits = list(attributeUnits)
+        }
+        
+        if(length(attributeName)==1){
+          attributeName = list(attributeName)
+        } 
+        if(length(attributeUnitsbool)==0){
+            message = "No attributes are needing units so no units are missing"
+            status="SUCCESS"
+          }else {
+          for (i in 1:length(attributeUnitsbool)){
+            attributeCount = attributeCount+ 1
+            if (attributeUnitsbool[i]==F){
+              units=NA
+            }else{
+              j=j+1
+              units = attributeUnits[j]
+            }
+            name = attributeName[i]
+            if(is.null(name)){
+              name=i
+            }
+            if(is.blank(units)){
+              missing=append(missing,name)
+            }
+          }
+          if(length(missing) == 1){
+            message = paste0("This 1 attribute (out of ",attributeCount," attributes that need units) is missing an unit : ", missing[1])
+            status = "FAILURE"
+            
+          }else if(length(missing) > 1 & length(missing) < 5){
+            message = paste0("These ",length(missing)," attributes  (out of ",attributeCount," attributes that need units) are missing a unit: ", paste(missing,collapse=","))
+            status="FAILURE"
+          }else if (length(missing) > 5){
+            message = paste0("These ",length(missing)," attributes (out of ",attributeCount," attributes that need units) are missing a unit: ", paste(missing[1:5],collapse=",")," and ",length(missing)-5," other(s)")
+            status="FAILURE"
+          }else{
+            message = "All attributes that need units have units specified."
+            status = "SUCCESS"
+          }
+        }
+      }
+      mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+      
+      
+      
+    ]]></code>
+    <selector>
+    <name>attributesPresent</name>
+    <xpath>boolean(
+      /eml/dataset/*/attributeList/attribute or
+      /eml/dataset/*/attributeList/attribute or
+      /*/contentInfo/*/dimension/MD_Band or
+      /*/contentInfo/*/dimension/MI_Band
+    )
+  </xpath>
+  </selector>
+    <selector>
+    <!-- Only select attributes that require a units, i.e. for EML 
+  attribute measurement types include: "interval", "ratio", "dateTime"
+  For ISO 19115*, if "minValue" or "maxValue" is specified, then Units 
+  must also be specified, but any other attribute can have units.
+  -->
+    <name>attributeUnitsbool</name>
+    <xpath>
+    /eml/dataset/dataTable/attributeList/attribute/measurementScale/interval |
+    /eml/dataset/dataTable/attributeList/attribute/measurementScale/ratio |
+    /*/contentInfo/*/dimension/MD_Band |
+    /*/contentInfo/*/dimension/MI_Band
+  </xpath>
+    <subSelector>
+    <name>units</name>
+    <xpath>
+    boolean(./unit/*/text()[normalize-space()] or
+            ./units//name/text()[normalize-space()])
+  </xpath>
+    </subSelector>
+    </selector>
+    <selector>
+    <name>attributeUnits</name>
+    <xpath>
+    /eml/dataset/dataTable/attributeList/attribute/measurementScale/interval |
+    /eml/dataset/dataTable/attributeList/attribute/measurementScale/ratio |
+    /*/contentInfo/*/dimension/MD_Band |
+    /*/contentInfo/*/dimension/MI_Band
+  </xpath>
+    <subSelector>
+    <name>units</name>
+    <xpath>
+    ./unit/*/text()[normalize-space()] or
+            ./units//name/text()[normalize-space()]
+  </xpath>
+    </subSelector>
+    </selector>
+    <selector>
+    <name>attributeName</name>
+    <xpath>
+    /eml/dataset/*/attributeList/attribute/measurementScale/interval |
+    /eml/dataset/*/attributeList/attribute/measurementScale/ratio |
+    /*/contentInfo/*/dimension/MD_Band |
+    /*/contentInfo/*/dimension/MI_Band
+  </xpath>
+    <subSelector>
+    <name>name</name>
+    <!-- Multiple paths may be present and return values, but we need just one -->
+    <xpath>
+    (../../attributeName/text()[normalize-space()] | 
+       ./sequenceIdentifier/MemberName/aName/*/text()[normalize-space()] |
+       ./descriptor/*/text()[normalize-space()])[1]
+  </xpath>
+    </subSelector>
+    </selector>
+    <dialect>
+    <name>DataCite 4</name>
+    <xpath>boolean(/*[local-name() = 'resource'])</xpath>
+    </dialect>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    <dialect>
+    <name>ISO 19115 and ISO 19115-2 / ISO 19139, ISO 19139-2, ISO 19115-1, ISO 19115-3 </name>
+    <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    </mdq:check>
+    

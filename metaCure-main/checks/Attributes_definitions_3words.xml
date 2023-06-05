@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>attribute.definition.3words</id>
+    <name>3 words definitions</name>
+    <description>Check that all definitions are at least 3 words long</description>
+    <type>interoperable</type>  
+    <level>RECOMMENDED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+      #Check first if attribute are present.
+      if (!attributesPresent){
+        status = "FAILURE"
+        message <-"No attributes were found so unable to check attributes definitions."
+      } else{
+        short = c()
+        j=0
+        # If only a single value is returned (vs type "list"), then convert to a list
+        # for easier processing
+        if(length(AttributesDefinitions)==1){
+          AttributesDefinitions = list(AttributesDefinitions)
+        }
+        
+        if(length(attributeName)==1){
+          attributeName = list(attributeName)
+        } 
+        for (i in 1:length(AttributesDefinitions)){
+          name = attributeName[i]
+          if(is.null(name)){
+            name=i
+          }
+          if(length(unlist(strsplit(AttributesDefinitions[i], "\\s+", perl=T)))<3){
+            short=append(short,name)
+          }
+        }
+        if(length(short) == 1){
+          message = paste0("This attribute (out of ",length(AttributesDefinitions),") have a definition smaller than 3 words: ", short[1])
+          status = "WARNING"
+          
+        }else if(length(short) > 1 & length(short) < 5){
+          message = paste0("These ",length(short)," attributes (out of ",length(AttributesDefinitions),") have definitions of less than 3 words: ", paste(short,collapse=","))
+          status="WARNING"
+        }else if (length(short) > 5){
+          message = paste0("These ",length(short)," attributes (out of ",length(AttributesDefinitions),") have definitions of less than 3 words: ", paste(short[1:5],collapse=",")," and ",length(short)-5," other(s)")
+          status="WARNING"
+        }else{
+          message = "All definitions are more than 3 words long."
+          status = "SUCCESS"
+        }
+      }
+      mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+      
+      
+      
+    ]]></code>
+    <selector>
+    <name>attributesPresent</name>
+    <xpath>boolean(
+      /eml/dataset/*/attributeList/attribute or
+      /eml/dataset/*/attributeList/attribute or
+      /*/contentInfo/*/dimension/MD_Band or
+      /*/contentInfo/*/dimension/MI_Band)
+  </xpath>
+    </selector>
+    <selector>
+    <name>AttributesDefinitions</name>
+    <xpath>/*[local-name() = 'eml']/dataset//attributeList/attribute/attributeDefinition </xpath>
+    </selector>
+    <selector>
+    <name>attributeName</name>
+    <xpath>
+    /eml/dataset/*/attributeList/attribute
+  </xpath>
+    <subSelector>
+    <name>name</name>
+    <!-- Multiple paths may be present and return values, but we need just one -->
+    <xpath>
+    ./attributeName/text()[normalize-space()] 
+  </xpath>
+    </subSelector>
+    </selector>
+    <dialect>
+    <name>DataCite 4</name>
+    <xpath>boolean(/*[local-name() = 'resource'])</xpath>
+    </dialect>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    <dialect>
+    <name>ISO 19115 and ISO 19115-2 / ISO 19139, ISO 19139-2, ISO 19115-1, ISO 19115-3 </name>
+    <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    </mdq:check>
+    

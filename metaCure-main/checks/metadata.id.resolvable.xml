@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+  <id>metadata.id.resolvable</id>
+  <name>Metadata ID Resolvable</name>
+  <description>Check the presence of an unique metadata ID and if the metadata is resolvable</description>
+  <type>accessible</type>
+  <level>REQUIRED</level>
+  <environment>rscript</environment>
+  <code><![CDATA[
+  library(httr)
+  d1_resolve_service="https://cn.dataone.org/cn/v2/resolve/"
+if (!DataIDPresence) {
+  # check if a metadata identifier is present
+  status <- "FAILURE"
+  message <-"No metadata Identifier was found."
+} else if(length(DataID)!=1) {
+  status <- "FAILURE"
+  message <-"More than 1 metadata Identifier were found"
+}else{
+  # Now check if the metadata identifier is a resolvable url. If it doesn't look like a URL, then 
+  # see if DataONE knows about it.
+  usedD1 = FALSE
+  isDOI = FALSE
+  resolvable=FALSE
+  if(gdata::startsWith(DataID, 'http', trim=TRUE, ignore.case=TRUE)){
+    resolvable= url_exists(DataID)
+  }else if(gdata::startsWith(DataID, 'doi', trim=TRUE, ignore.case=TRUE)){
+    isDOI = TRUE
+    # If the identifier is a 'bare' DOI (e.g. "doi:10.18739/A2027H"), then prepend with a DOI resolver link
+    # i.e. https://dx.doi.org
+    resolvable= url_exists(paste0("https://dx.doi.org/",substr(DataID, 5, nchar(DataID))))
+  }else{
+    usedD1 = TRUE
+    url = paste(d1_resolve_service,DataID)
+    resolvable=url_exists(url)
+
+  }
+  output = paste0("The metadata identifier '",DataID,"' was found ")
+  if (resolvable){
+    if(usedD1){
+       message = paste0(output," and is resolvable using the DataONE resolve service.")
+    }else if(isDOI){
+      message= paste0(output," and is resolvable using a DOI resolver.")
+    }else{
+      message= paste0(output," and is resolvable")
+    }
+    status = "SUCCESS"
+  }
+  else{
+    message = paste0(output," but is not resolvable")
+    status = "WARNING"
+  }
+}     
+  
+
+
+    mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+  ]]></code>
+  <selector>
+    <name>DataIDPresence</name>
+    <xpath>boolean(/*[local-name() = 'eml']/@packageId)</xpath>
+  </selector>
+    <selector>
+    <name>DataID</name>
+    <xpath>/*[local-name() = 'eml']/@packageId</xpath>
+  </selector>
+  <dialect>
+    <name>eml</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+  </dialect>
+</mdq:check>

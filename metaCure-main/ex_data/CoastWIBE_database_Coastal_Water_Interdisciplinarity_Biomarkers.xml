@@ -1,0 +1,3795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="Water Interdisciplinary Biology and Ecology database “WIBE”" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" system="unknown">
+ <dataset id="wibe">
+   <title>Water Interdisciplinary Biology and Ecology database “WIBE”: Towards FAIR, open and interdisciplinary data on biomarkers to monitor the ecological status of coastal waters. </title>
+   <creator>
+     <individualName>
+       <givenName>Clémence</givenName>
+       <surName>Epinoux</surName>
+     </individualName>
+     <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+     <electronicMailAddress>clemence.epinoux@gmail.com</electronicMailAddress>
+     <userId directory="https://orcid.org">https://orcid.org/0000-0001-7879-6078</userId>
+   </creator>
+   <creator>
+     <individualName>
+       <givenName>Marine</givenName>
+       <surName>Barbarin</surName>
+     </individualName>
+     <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+     <electronicMailAddress>marine.barbarin1@univ-lr.fr</electronicMailAddress>
+     <userId directory="https://orcid.org">https://orcid.org/0000-0001-6281-6249</userId>
+   </creator>
+   <creator>
+     <individualName>
+       <givenName>Justine</givenName>
+       <surName>Castrec</surName>
+     </individualName>
+     <organizationName>Station de Recherches Sous-marines et Océanographiques (STARESO)</organizationName>
+     <electronicMailAddress>justine.castrec@gmail.com</electronicMailAddress>
+     <userId directory="https://orcid.org">https://orcid.org/0000-0002-0180-6327</userId>
+   </creator>
+   <creator>
+     <individualName>
+       <givenName>Carine</givenName>
+       <surName>Churlaud</surName>
+     </individualName>
+     <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+     <electronicMailAddress>carine.churlaud@univ-lr.fr</electronicMailAddress>
+     <userId directory="https://orcid.org">https://orcid.org/0000-0002-1838-3252</userId>
+   </creator>
+   <creator>
+     <individualName>
+       <givenName>Mathilde</givenName>
+       <surName>Dabrowski</surName>
+     </individualName>
+     <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+     <electronicMailAddress>mathildeBDP@hotmail.fr</electronicMailAddress>
+   </creator>
+   <creator>
+    <individualName>
+      <givenName>Romain</givenName>
+      <surName>DAVID</surName>
+    </individualName>
+    <organizationName>European Research Infrastructure on Highly Pathogenic Agents (ERINHA)</organizationName>
+    <electronicMailAddress>romain.david@erinha.eu</electronicMailAddress>
+    <userId directory="https://orcid.org">https://orcid.org/0000-0003-4073-7456</userId>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Quentin</givenName>
+      <surName>Fontaine</surName>
+    </individualName>
+    <organizationName>Station de Recherches Sous-marines et Océanographiques (STARESO)</organizationName>
+    <electronicMailAddress>quentin.fontaine@stareso.com</electronicMailAddress>
+    <userId directory="https://orcid.org">https://orcid.org/0000-0003-0175-5889</userId>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Angélique</givenName>
+      <surName>Fontanaud</surName>
+    </individualName>
+    <organizationName>Régie du port de plaisance de La Rochelle</organizationName>
+    <electronicMailAddress>fontanaud@portlarochelle.com</electronicMailAddress>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Lovina</givenName>
+      <surName>Fullgrabe</surName>
+    </individualName>
+    <organizationName>Station de Recherches Sous-marines et Océanographiques (STARESO)</organizationName>
+    <electronicMailAddress>lovina.fullgrabe@stareso.com</electronicMailAddress>
+    <userId directory="https://orcid.org">https://orcid.org/0000-0003-3798-4253</userId>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Claire</givenName>
+      <surName>Gillet</surName>
+    </individualName>
+    <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+    <electronicMailAddress>claire.gillet07@gmail.com</electronicMailAddress>
+    <userId directory="https://orcid.org">https://orcid.org/0000-0001-5802-9912</userId>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Sylvie</givenName>
+      <surName>Gobert</surName>
+    </individualName>
+    <organizationName>Université de Liège</organizationName>
+    <electronicMailAddress>Sylvie.Gobert@uliege.be</electronicMailAddress>
+    <userId directory="https://orcid.org">https://orcid.org/0000-0001-6000-0190</userId>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Valérie</givenName>
+      <surName>Huet</surName>
+    </individualName>
+    <organizationName>Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+    <electronicMailAddress>valerie.huet@univ-lr.fr</electronicMailAddress>
+    <userId directory="https://orcid.org">https://orcid.org/0000-0003-0976-5600 </userId>
+  </creator>
+  <creator>
+    <individualName>
+     <givenName>Pierre</givenName>
+     <surName>Lejeune</surName>
+   </individualName>
+   <organizationName>Station de Recherches Sous-marines et Océanographiques (STARESO)</organizationName>
+   <electronicMailAddress>pierre.lejeune@stareso.com</electronicMailAddress>
+   <userId directory="https://orcid.org">https://orcid.org/0000-0002-2419-4896</userId>
+ </creator>
+ <creator>
+  <individualName>
+   <givenName>Lise</givenName>
+   <surName>Le Vern</surName>
+ </individualName>
+ <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+ <electronicMailAddress>lise.le-vern@outlook.fr</electronicMailAddress>
+</creator>
+<creator>
+ <individualName>
+   <givenName>Bénédicte</givenName>
+   <surName>Madon</surName>
+ </individualName>
+ <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+ <electronicMailAddress>benedicte.madon@univ-lr.fr</electronicMailAddress>
+ <userId directory="https://orcid.org">https://orcid.org/0000-0001-8608-3895</userId>
+</creator>
+<creator>
+  <individualName>
+    <givenName>Michel</givenName>
+    <surName>Marengo</surName>
+  </individualName>
+  <organizationName>Station de Recherches Sous-marines et Océanographiques (STARESO)</organizationName>
+  <electronicMailAddress>michel.marengo@stareso.com</electronicMailAddress>
+  <userId directory="https://orcid.org">https://orcid.org/0000-0001-8419-5076</userId>
+</creator>
+<creator>
+  <individualName>
+    <givenName>Cecilia</givenName>
+    <surName>Pignon-Mussaud</surName>
+  </individualName>
+  <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+  <electronicMailAddress>cecilia.pignon-mussaud@univ-lr.fr</electronicMailAddress>
+  <userId directory="https://orcid.org">https://orcid.org/0000-0003-2791-8084</userId>
+</creator>
+<creator>
+  <individualName>
+    <givenName>Marion</givenName>
+    <surName>Pillet</surName>
+  </individualName>
+  <organizationName>Station de recherches Sous-Marines et Océanographiques (STARESO) and Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+  <electronicMailAddress>marion.pillet@stareso.com</electronicMailAddress>
+  <userId directory="https://orcid.org">https://orcid.org/0000-0002-4486-595X</userId>
+</creator>
+<creator>
+  <individualName>
+    <givenName>Justine</givenName>
+    <surName>Receveur</surName>
+  </individualName>
+  <organizationName>Centre of Documentation, Research and Experimentation on Accidental Water Pollution (CEDRE)</organizationName>
+  <electronicMailAddress>justine.receveur@cedre.fr</electronicMailAddress>
+</creator>
+<creator>
+  <individualName>
+    <givenName>Pierre</givenName>
+    <surName>Rideau</surName>
+  </individualName>
+  <organizationName>Régie du port de plaisance de La Rochelle</organizationName>
+  <electronicMailAddress>rideau@portlarochelle.com</electronicMailAddress>
+</creator>
+<associatedParty>
+  <individualName>
+    <givenName>Marine</givenName>
+    <surName>Barbarin</surName>
+  </individualName>
+  <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+  <electronicMailAddress>marine.barbarin1@univ-lr.fr</electronicMailAddress>
+  <userId directory="https://orcid.org">https://orcid.org/0000-0001-6281-6249</userId>
+  <role>Contact for the QUALIPERTUIS project</role>
+</associatedParty>
+<associatedParty>
+  <individualName>
+    <givenName>Justine</givenName>
+    <surName>Castrec</surName>
+  </individualName>
+  <organizationName>Station de Recherches Sous-marines et Océanographiques (STARESO)</organizationName>
+  <electronicMailAddress>justine.castrec@gmail.com</electronicMailAddress>
+  <userId directory="https://orcid.org">https://orcid.org/0000-0002-0180-6327</userId>
+  <role>Contact for the part of the QAMPO project relying to the biomarkers of exposure</role>
+</associatedParty>
+<associatedParty>
+  <individualName>
+    <givenName>Quentin</givenName>
+    <surName>Fontaine</surName>
+  </individualName>
+  <organizationName>Station de Recherches Sous-marines et Océanographiques (STARESO)</organizationName>
+  <electronicMailAddress>quentin.fontaine@stareso.com</electronicMailAddress>
+  <userId directory="https://orcid.org">https://orcid.org/0000-0003-0175-5889</userId>
+  <role>Contact for the contextual data about the ports sampled by the QUAMPO project</role>
+</associatedParty>
+<associatedParty>
+ <individualName>
+   <givenName>Lovina</givenName>
+   <surName>Fullgrabe</surName>
+ </individualName>
+ <organizationName>Station de Recherches Sous-marines et Océanographiques (STARESO)</organizationName>
+ <electronicMailAddress>lovina.fullgrabe@stareso.com</electronicMailAddress>
+ <userId directory="https://orcid.org">https://orcid.org/0000-0003-3798-4253</userId>
+ <role>Contact for the part of the QUAMPO project relying to the physico-chemical parameters of the ports' water</role>
+</associatedParty>
+<associatedParty>
+ <individualName>
+   <givenName>Marion</givenName>
+   <surName>Pillet</surName>
+ </individualName>
+ <organizationName>Station de recherches Sous-Marines et Océanographiques (STARESO) and Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+ <electronicMailAddress>marion.pillet@stareso.com</electronicMailAddress>
+ <userId directory="https://orcid.org">https://orcid.org/0000-0002-4486-595X</userId>
+ <role>Contact for the parts of the QUAMPO project relying to the biomarkers of effect and to the concentrations of pollutants in the ports' water</role>
+</associatedParty>
+<pubDate>2022-06-15</pubDate>
+<abstract>
+<markdown>The Water Interdisciplinary Biology and Ecology database “WIBE” database presents data from different scientific projects proposing the monitoring of the ecological status of waters by a multi-biomarker study. This database gathers biological data of selected bioindicator species and environmental contextual data. In this work, data on physico-chemical parameters and concentrations of trace elements and organic pollutants were collected in the waters as well as biomarkers of effect and exposure to pollutants in marine organisms. The collected data, after various analyses, were cleaned and reworked to meet FAIR and open data principles. We focused on developing a data dictionary linked to existing ontologies and compliant with standards in order to make it as reusable as possible for the ecotoxicology research community. All datasets are available on the public repository of the National Biodiversity Data Centre. The current dataset can be used by port and coastal water managers but also by marine ecotoxicology researchers who will benefit from the first, to our knowledge, completely open database on marine biomarkers allowing the monitoring of coastal water contamination and thus the proposal of remediation measures if necessary.
+</markdown>
+</abstract>
+<keywordSet>
+  <keyword>biomarker</keyword>
+  <keyword>marine</keyword>
+  <keyword>aquatic</keyword>
+  <keyword>water</keyword>
+  <keyword>port</keyword>
+  <keyword>pollution</keyword>
+  <keyword>Corsica</keyword>
+  <keyword>La Rochelle</keyword>
+  <keyword>ecotoxicology</keyword>
+  <keyword>interdisciplinary</keyword>
+  <keyword>WIBE</keyword>
+  <keyword>ecology</keyword>
+  <keyword>biology</keyword>
+  <keyword>FAIR principles</keyword>
+  <keyword>open science</keyword>
+  <keyword>database</keyword>
+</keywordSet>
+<additionalInfo>
+  <para>
+  </para>
+</additionalInfo>
+<intellectualRights>
+  <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+  </para>
+</intellectualRights>
+<coverage>
+  <geographicCoverage>
+    <geographicDescription>Calvi_port</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>8.76163</westBoundingCoordinate>
+      <eastBoundingCoordinate>8.76163</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.56726</northBoundingCoordinate>
+      <southBoundingCoordinate>42.56726</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>Calvi_fairing</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>8.75694</westBoundingCoordinate>
+      <eastBoundingCoordinate>8.75694</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.56359</northBoundingCoordinate>
+      <southBoundingCoordinate>42.56359</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>Calvi_oil</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>8.75768</westBoundingCoordinate>
+      <eastBoundingCoordinate>8.75768</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.56439</northBoundingCoordinate>
+      <southBoundingCoordinate>42.56439</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>Ile_rousse_port</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>8.93639</westBoundingCoordinate>
+      <eastBoundingCoordinate>8.93639</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.64151</northBoundingCoordinate>
+      <southBoundingCoordinate>42.64151</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>Ile_rousse_fairing</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>8.93554</westBoundingCoordinate>
+      <eastBoundingCoordinate>8.93554</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.64023</northBoundingCoordinate>
+      <southBoundingCoordinate>42.64023</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>Ile_rousse_oil</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>8.9359129</westBoundingCoordinate>
+      <eastBoundingCoordinate>8.9359129</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.6406397</northBoundingCoordinate>
+      <southBoundingCoordinate>42.6406397</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>St_florent_port</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>9.30031</westBoundingCoordinate>
+      <eastBoundingCoordinate>9.30031</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.67993</northBoundingCoordinate>
+      <southBoundingCoordinate>42.67993</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>St_florent_fairing</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>9.3009414</westBoundingCoordinate>
+      <eastBoundingCoordinate>9.3009414</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.6798025</northBoundingCoordinate>
+      <southBoundingCoordinate>42.6798025</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>St_florent_oil</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>9.29801</westBoundingCoordinate>
+      <eastBoundingCoordinate>9.29801</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.68093</northBoundingCoordinate>
+      <southBoundingCoordinate>42.68093</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>STARESO_port</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>8.72542</westBoundingCoordinate>
+      <eastBoundingCoordinate>8.72542</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.58044</northBoundingCoordinate>
+      <southBoundingCoordinate>42.58044</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>Diana_mussel_farm</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>9.536647</westBoundingCoordinate>
+      <eastBoundingCoordinate>9.5366473</eastBoundingCoordinate>
+      <northBoundingCoordinate>42.131517</northBoundingCoordinate>
+      <southBoundingCoordinate>42.131517</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>L'Houmeau_marsh_reference</geographicDescription>
+
+    <boundingCoordinates>
+      <westBoundingCoordinate>-1.19539</westBoundingCoordinate>
+      <eastBoundingCoordinate>-1.19539</eastBoundingCoordinate>
+      <northBoundingCoordinate>46.20382</northBoundingCoordinate>
+      <southBoundingCoordinate>46.20382</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>Minimes_fairing</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>-1.16187</westBoundingCoordinate>
+      <eastBoundingCoordinate>-1.16187</eastBoundingCoordinate>
+      <northBoundingCoordinate>46.14675</northBoundingCoordinate>
+      <southBoundingCoordinate>46.14675</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>Minimes_rain_waters</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>-1.16605</westBoundingCoordinate>
+      <eastBoundingCoordinate>-1.16605</eastBoundingCoordinate>
+      <northBoundingCoordinate>46.14143</northBoundingCoordinate>
+      <southBoundingCoordinate>46.14143</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <geographicCoverage>
+    <geographicDescription>Minimes_oil</geographicDescription>
+    <boundingCoordinates>
+      <westBoundingCoordinate>-1.16749</westBoundingCoordinate>
+      <eastBoundingCoordinate>-1.16749</eastBoundingCoordinate>
+      <northBoundingCoordinate>46.14688</northBoundingCoordinate>
+      <southBoundingCoordinate>46.14688</southBoundingCoordinate>
+    </boundingCoordinates>
+  </geographicCoverage>
+  <temporalCoverage>
+    <rangeOfDates>
+      <beginDate>
+        <calendarDate>2019-06-03</calendarDate>
+      </beginDate>
+      <endDate>
+        <calendarDate>2022-12-31</calendarDate>
+      </endDate>
+    </rangeOfDates>
+  </temporalCoverage>
+  <taxonomicCoverage>
+    <taxonomicClassification>
+      <taxonRankName>kingdom</taxonRankName>
+      <taxonRankValue>Animalia</taxonRankValue>
+      <taxonId provider="https://gbif.org">1</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>phylum</taxonRankName>
+        <taxonRankValue>Echinodermata</taxonRankValue>
+        <taxonId provider="https://gbif.org">50</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>class</taxonRankName>
+          <taxonRankValue>Holothuroidea</taxonRankValue>
+          <taxonId provider="https://gbif.org">222</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>order</taxonRankName>
+            <taxonRankValue>Holothuriida</taxonRankValue>
+            <taxonId provider="https://gbif.org">9505681</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>family</taxonRankName>
+              <taxonRankValue>Holothuriidae</taxonRankValue>
+              <taxonId provider="https://gbif.org">9548</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>genus</taxonRankName>
+                <taxonRankValue>Holothuria</taxonRankValue>
+                <taxonId provider="https://gbif.org">2279143</taxonId>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+    <taxonomicClassification>
+      <taxonRankName>kingdom</taxonRankName>
+      <taxonRankValue>Animalia</taxonRankValue>
+      <taxonId provider="https://gbif.org">1</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>phylum</taxonRankName>
+        <taxonRankValue>Mollusca</taxonRankValue>
+        <taxonId provider="https://gbif.org">52</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>class</taxonRankName>
+          <taxonRankValue>Bivalvia</taxonRankValue>
+          <taxonId provider="https://gbif.org">137</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>order</taxonRankName>
+            <taxonRankValue>Pectinida</taxonRankValue>
+            <taxonId provider="https://gbif.org">9250425</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>family</taxonRankName>
+              <taxonRankValue>Pectinidae</taxonRankValue>
+              <taxonId provider="https://gbif.org">3472</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>genus</taxonRankName>
+                <taxonRankValue>Mimachlamys</taxonRankValue>
+                <taxonId provider="https://gbif.org">2285867</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>Mimachlamys varia</taxonRankValue>
+                  <taxonId provider="https://gbif.org">4373480</taxonId>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+    <taxonomicClassification>
+      <taxonRankName>kingdom</taxonRankName>
+      <taxonRankValue>Animalia</taxonRankValue>
+      <taxonId provider="https://gbif.org">1</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>phylum</taxonRankName>
+        <taxonRankValue>Mollusca</taxonRankValue>
+        <taxonId provider="https://gbif.org">52</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>class</taxonRankName>
+          <taxonRankValue>Bivalvia</taxonRankValue>
+          <taxonId provider="https://gbif.org">137</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>order</taxonRankName>
+            <taxonRankValue>Mytilida</taxonRankValue>
+            <taxonId provider="https://gbif.org">9330464</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>family</taxonRankName>
+              <taxonRankValue>Mytilidae</taxonRankValue>
+              <taxonId provider="https://gbif.org">3476</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>genus</taxonRankName>
+                <taxonRankValue>Mytilus</taxonRankValue>
+                <taxonId provider="https://gbif.org">2285679</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>Mytilus galloprovincialis</taxonRankValue>
+                  <taxonId provider="https://gbif.org">2285683</taxonId>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+    <taxonomicClassification>
+      <taxonRankName>kingdom</taxonRankName>
+      <taxonRankValue>Fungi</taxonRankValue>
+      <taxonId provider="https://gbif.org">5</taxonId>
+      <taxonomicClassification>
+        <taxonRankName>phylum</taxonRankName>
+        <taxonRankValue>Ascomycota</taxonRankValue>
+        <taxonId provider="https://gbif.org">95</taxonId>
+        <taxonomicClassification>
+          <taxonRankName>class</taxonRankName>
+          <taxonRankValue>Pezizomycetes</taxonRankValue>
+          <taxonId provider="https://gbif.org">316</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>order</taxonRankName>
+            <taxonRankValue>Pezizales</taxonRankValue>
+            <taxonId provider="https://gbif.org">1057</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>family</taxonRankName>
+              <taxonRankValue>Pyronemataceae</taxonRankValue>
+              <taxonId provider="https://gbif.org">4131</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>genus</taxonRankName>
+                <taxonRankValue>Patella</taxonRankValue>
+                <taxonId provider="https://gbif.org">8151313</taxonId>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicClassification>
+    </taxonomicClassification>
+    <taxonomicClassification>
+      <taxonRankValue>Holothuria sp.</taxonRankValue>
+    </taxonomicClassification>
+    <taxonomicClassification>
+      <taxonRankValue>Mimachlamys varia</taxonRankValue>
+    </taxonomicClassification>
+    <taxonomicClassification>
+      <taxonRankValue>Mytilus galloprovincialis</taxonRankValue>
+    </taxonomicClassification>
+    <taxonomicClassification>
+      <taxonRankValue>Patella sp.</taxonRankValue>
+    </taxonomicClassification>
+  </taxonomicCoverage>
+</coverage>
+    <annotation id="kw1">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="biomarker">http://purl.obolibrary.org/obo/CHEBI_59163</valueURI>
+    </annotation>
+    <annotation id="kw2">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="marine">http://vocabs.lter-europe.net/EnvThes/21804</valueURI>
+    </annotation>
+    <annotation id="kw3">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="aquatic">http://vocabs.lter-europe.net/EnvThes/21785</valueURI>
+    </annotation>
+    <annotation id="kw4">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="pollution">http://sweetontology.net/phenEnvirImpact/Pollution</valueURI>
+    </annotation>
+    <annotation id="kw5">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="corsica">http://purl.bioontology.org/ontology/RCD/Ua0BA</valueURI>
+    </annotation>
+    <annotation id="kw6">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="ecotoxicology">http://purl.bioontology.org/ontology/MESH/D054750</valueURI>
+    </annotation>
+    <annotation id="kw7">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="interdisciplinary">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15428</valueURI>
+    </annotation>
+    <annotation id="kw8">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="ecology">http://sweetontology.net/humanKnowledgeDomain/Ecology</valueURI>
+    </annotation>
+    <annotation id="kw9">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="biology">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16345</valueURI>
+    </annotation>
+    <annotation id="kw10">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="FAIR data">http://edamontology.org/topic_4012</valueURI>
+    </annotation>
+    <annotation id="kw11">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="open science">http://edamontology.org/topic_4010</valueURI>
+    </annotation>
+    <annotation id="kw12">
+        <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_0000136</propertyURI>
+        <valueURI label="database">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15426</valueURI>
+    </annotation>
+<maintenance>
+  <description>ongoing</description>
+</maintenance>
+<contact>
+  <individualName>
+    <givenName>Clémence</givenName>
+    <surName>Epinoux</surName>
+  </individualName>
+  <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+  <electronicMailAddress>clemence.epinoux@gmail.com</electronicMailAddress>
+  <userId directory="https://orcid.org">https://orcid.org/0000-0001-7879-6078</userId>
+</contact>
+<methods>
+  <methodStep>
+    <description>
+      <markdown>
+
+## Method of the QUAMPO project:
+
+Three species (*Mytilus galloprovincialis, Patella sp. and Holothuria sp.*) were sampled in January and September 2020 in four different ports of North Corsica (France). St-Florent (42.67993, 9.30031),  Ile Rousse (42.64151, 8.93639) and Calvi (42.56726, 8.76163) ports were chosen as exposed site while the STARESO (42.58044, 8.72542) was chosen as the control site.
+
+## Method of the QUALIPERTUIS project:
+ Three study sites were used in the marina of *Les Minimes* (La Rochelle, Region Nouvelle-Aquitaine). These sites were chosen following previous studies carried out within the marina as being exposed to potential anthropogenic contamination: careening station (CAR), fuel station (NFS), storm water outfall (PLU) (Breitwieser et al., 2020b; Breitwieser et al., 2020a; Breitwieser et al., 2017). The reference site selected for this study is a former oyster farm, in a semi-open environment, and not subject to port activities (Marsh, CNRS site, *l'Houmeau*).
+
+      </markdown>
+    </description>
+  </methodStep>
+    <sampling>
+      <studyExtent>
+        <description>
+          <markdown>
+## QUAMPO In situ and caging experiment
+In January 2020, mussels (n=17) were found only in St-Florent port while limpets (n = 13-14 per location) were found everywhere except in St-Florent port. Sea cucumbers (n = 4-7 per location) were collected in the four ports in January and September 2020 but haven’t been collected afterwards. In September 2020, limpets (n = 15-16 per location) were collected in the four ports. As mussels were absent from almost all locations in January 2020, cages were used for the following collections. Mussels were bought from the mussel farm of the Etang de Diana in June 2020, left two weeks in STARESO for acclimation and then installed in the different ports for three months. In September 2020, they (n = 16 per location) were collected in STARESO, Île Rousse and St-Florent. In Calvi, only 3 mussels survived and were used for bioaccumulation analyses. In January 2021, limpets (n = 10 in each location) were collected in each port while the mussels (n = 10-20 per location) were collected in the ports of Calvi, St-Florent and Île Rousse but not in STARESO. In September 2021,mussels (n = 10-20) and limpets (n = 8-10) were collected in all of the four ports. Finally, in January 2022, mussels (n = 20) were collected in each port except in STARESO and limpets (n = 7-10) were found and collected in the four studied ports.
+
+### Test on the “pool” techniques
+During the January 2020 sampling, additional organisms were collected in one location to test “pool” and “individual” sampling techniques: 13 mussels (length = 68.56 ± 8.84 mm) and 4 sea cucumber (length = 193.25 ± 34.67 mm) were collected at St-Florent and 14 limpets (length = 32.34 ± 4.93 mm) at Île Rousse. To test the “pool” sampling technique, the tissues of 7 individuals from St-Florent (mussel and sea cucumber) and Île Rousse (limpet) were dissected, pooled and processed as detailed below for all the analyses (enzymes and bioaccumulation markers).
+
+
+## QUALIPERTUIS caging experiment
+The biological model used for this study is the same as that used in previous publications: the black scallop Mimachlamys varia. An active biomonitoring method was used with caging. For this, individuals were fished at the Loix site (Ile de Ré, less subject to port influences, (Breitwieser et al., 2018; Breitwieser et al., 2017) before the experiments. They are caged in the reference site (Marsh) for a minimum of 15 days to acclimate before being transplanted to the study site in the port. On each day of the experiment, the individuals were counted in order to assess mortality, then seven individuals per site were taken (the D0 sample was taken only at the Marsh reference site) and placed in liquid nitrogen in order to preserve enzymatic activities. Low mortality (less than 10 %) at both sites was observed during the study. The individuals were then placed at -80°C before being prepared for biochemical analysis. Once in the laboratory, the individuals are processed in a pool to save time and money (the seven individuals recovered from each sample become one sample). A previous study compared pooled and individual data, the results showed that few differences were observed between the two methods (Breitwieser et al., 2018). Statistical analysis is performed using R software (RStudio, version 1.4.1103) and Excel 2013. The data exploration is organised by seasons (7), sites (4) and sampling days (4). For all variables, the homogeneity of variances is assessed using Fligner-Killeen tests. Normality is also tested using a Shapiro-Wilk test.
+
+          </markdown>
+        </description>
+      </studyExtent>
+      <samplingDescription>
+        <markdown>
+## QUAMPO
+### Tissue sampling
+After sampling, individuals were immediately placed in dry ice and shipped to La Rochelle (France) within 48 h to be analysed. In the lab, half (n = ~7) of the mussels, limpets and sea cucumber tissues were kept at -20°C for trace element bioaccumulation analyses while the other half was kept at -80°C for all the other analyses.
+### Biomarkers of exposure (= trace element bioaccumulation)
+The soft tissues of mussel and limpet were hand grinded with a ceramic mortar and pestle. The body wall of sea cucumber was cut in pieces as small as possible. The samples were freeze dried for 48-72 h. Then, the samples and the two reference materials (DOLT-5, dogfish liver, and TORT-3, lobster hepatopancreas, National Research Council Canada) were weighted around 0.25 mg and digested by addition of 6:2 (v/v) 67-70% HNO3/34-37% HCl mixture (Fisher, trace metal quality). The digestion process was carried out overnight at room temperature followed by a microwave digestion (30 min with constantly increasing temperature up to 120 °C, then 15 min at this temperature). At the end of these steps, samples were completed with ultrapure water until 50 mL. aluminium (Al), silver (Ag), arsenic (As), barium (Ba), cadmium (Cd), cobalt (Co), chromium (Cr), copper (Cu), iron (Fe), manganese (Mn), molybdenum (Mo), nickel (Ni), lead (Pb), antimony (Sb), selenium (Se), tin (Sn), vanadium (V) and zinc (Zn) contents were analysed using a ICP-OES Vista-Pro (Varian Inc., Palo Alto, California, USA) and an ICP-MS XSeries 2 (ThermoFisher Scientific, Waltham, 192 Massachusetts, USA).Means recovery rates were 76% (Al), 103.5% (Ag), 98% (As), 90.5% (Cd), 89.7% (Co), 89% (Cr), 91.2% (Cu), 93.5% (Fe), 90% (Mn), 87.7% (Mo), 81% (Ni), 88% (Pb), 96.7% (Se), 90.5% (V) and 96.2% (Zn).
+Quantification limits were 19.28 (Al), 0.01 (Ag), 0.1 (As), 0.1 (Ba), 0.01 (Cd), 0.01 (Co), 0.1 (Cr), 0.96 (Cu), 3.86 (Fe), 0.01 (Mn), 0.1 (Mo), 0.04 (Ni), 0.01 (Pb), 0.04 (Sb), 0.39 (Se), 0.02 (Sn), 0.96 (V) and 3.86 (Zn) μg.g-1 of dry weight.
+The trace element contamination of the water samples was also analysed using ICP-OES (dilution to 1/5 for water samples and seawater standards, in 2 % nitric acid) and ICP-MS (dilution to 1/20 for water samples and seawater standards, in 2 % nitric acid).
+
+### Biomarkers of effect analyses
+#### Tissues samples processing
+Individuals were dissected to keep the digestive gland for mussel, the whole soft tissues for limpets and the body wall for sea cucumber. The tissues were weighted grinded in liquid nitrogen using a MM400 Retsch© (GmbH, Éragny, Luxemburg) mixer mill and then hand homogenized on ice in one volume of phosphate buffered saline (PBS) solution (100 mM, pH containing 0.1 % Triton X-100 and 1 mM ethylenediaminetetraacetic acid (EDTA) to avoid protein degradation. The samples were centrifuged 15 min at 12500 g at 4°C (Sorvall Legeng Micro 17R, ThermoFisher Scientific, Waltham, Massachusetts, USA). The supernatant was collected, divided into aliquots and used for the subsequent biomarkers of effect and protein analyses.
+
+#### Enzymatic biomarkers
+The capacity to respond to oxidative stress was evaluated using superoxide dismutase (SOD), catalase (CAT) and glutathione peroxidase (GPx) activities. SOD activity protocol is based on the inhibition of a superoxide-driven NADH oxidation and was measured following the rate of NADH oxidation at 340 nm (Paoletti et al. 1986). CAT activity was determined according to Aebi (1984) by measuring the rate of decomposition of hydrogen peroxide at 240 nm. GPx activity was assayed according to Paglia and Valentine (1967) as modified by Janssens et al. (2000) by monitoring the consumption of NADPH at 340 nm. The glutathione S-transferase (GST) and glutathione reductase (GR), enzymes involved in detoxification process, were respectively determined by measuring the production of GS-DNB at 340 nm (Habig et al. 1974) and by recording the oxidation of NADPH at 340 nm (Carlberg and Mannervik 1985). Acetylcholinesterase (AChE) is widely used to estimate neurotoxic impacts of pollutants, especially organophosphates, carbamates, several heavy metals and surfactants. Its activity was assayed by recording the production of 5-thio-2-nitrobenzoate at 405 nm (Ellman et al. 1961). Finally, the laccase-type phenoloxidase (LAC) is involved in the immune, antioxidant and detoxification processes (Luna-Acosta et al. 2017a). The activity of this enzyme was measured according to (Luna-Acosta et al. 2010) y following the oxidation of p-phenylenediamine at 420 nm.
+The total protein content was measured with the bicinchoninic acid protein assay kit (Sigma-Aldrich®) that is similar to the Lowry et al. (1951) procedure.
+All activities measurements were done on a SpectroStar Nano spectrophotometer (BMG labtech, Champigny-sur-Marne, France).
+All chemicals were obtained from Sigma-Aldrich®. All analyses were performed in duplicate using standard methods adapted for a microplate reader. For all enzymatic analysis, homogenates were diluted to obtain linear reaction slopes for a minimum of five minutes at 25°C. Total and specific enzymatic activities were measured and expressed as 242 U (μmol.min−1).g−1 of wet tissue and U.mg−1 of protein, respectively.
+
+#### Lipid peroxidation
+Malondialdehyde (MDA) content, a secondary product of lipid peroxidation, was quantified using the thiobarbituric acid reactive substances (TBARS) assay, following Heath and Packer (1968) and Bird and Draper (1984), adapted by Torres et al. (2020). This method estimates the ability of the aldehydic products to react with thiobarbituric acid. The thiobarbituric acid-malondialdehyde complex produced during the reaction is followed by spectrophotometry at 535 nm. A correction factor for nonspecific turbidity is applied by recorded the absorbance at 600 nm.
+
+#### Integrated biomarker response (IBR)
+For each specie, the "Integrated Biomarker Response" (IBR, (Devin et al. 2014)) was calculated using the response of biomarkers of effect. On R software, the functions from the package IBRtools was used. These calculations are based on Beliaeff and Burgeot (2002) revisited by Devin et al. (2014).
+
+## QUALIPERTUIS
+All biochemical assays (SOD, GST, MDA, AChE and LAC) were performed using the same instrument: SpectroStar Nano with specific absorbance for each type of biomarker. The assays were carried out on the digestive glands of scallops (M. varia) from all the study sites at D0, D07, D21 and D30 (one pool (n=7 individuals) per site and per date). Data are obtained in U.mg protein for SOD, GST, AChE and LAC. Data obtained for MDA are in μM.mg protein. Total protein concentrations are determined using the BCA kit methodology (Bicinchononic Acid Kit, Sigma Aldrich). The BCA kit contains bovine serum albumin (BSA) as a standard and involves the reduction of alkaline Cu(II) proteins by proteins (Smith et al., 1985) at an absorbance of 562 nm. Superoxide dismutase (SOD) activity plays an important role in the oxidative stress response (Paoletti et al., 1986) and has been used in previous studies (Breitwieser et al., 2017). The specific activity of glutathione S-transferase (GST) plays a major role in the detoxification of xenobiotics. Total GST activity (GST being a group of enzymes) is determined according to the Sigma kit method (CS0410-1 KT) (Breitwieser et al., 2017). In addition to SOD, oxidative stress is assessed by lipid peroxidation by quantifying malondialdehyde (MDA), a chemical metabolite of cellular lipid breakdown. The concentration of MDA is measured using an MDA analysis kit (Oxis International) (Breitwieser et al., 2017; Milinkovitch et al., 2015). AChE is an enzyme involved in the neurotransmitter mechanism and is responsible for the hydrolysis of acetylcholine to choline and acetic acid. Its inhibition is directly related to the mechanism of toxic action of organophosphorus and pesticides. Some studies have focused on the inhibition of cholinesterase activity as a diagnostic tool for organophosphorus pesticide contamination in birds (Cairns et al., 1991; Driver et al., 1991) or in fish (Galgani et al., 1992; Zinkl et al., 1987), but few studies have been carried out on marine invertebrates, which are widely used as indicators in pollution biomonitoring programs (Day and Scott, 1990). AChE activity (IU.mg protein-1) was measured using the AcetylCholinEsterase Assay Kit (Colorimetric) ab138871 (Abcam©). The phenoloxidase (Laccase) activity reveals an alteration of the bivalve immune system. Its enzymatic activity is sensitive to contaminants (Luna-Acosta et al., 2010b; Luna-Acosta et al., 2010a) and plays a crucial role in the immune defense mechanism of marine invertebrates. Its quantification has been performed in previous studies (Breitwieser et al., 2017).
+
+## Environmental parameters
+### QUAMPO
+One water sample was taken from each location two or three times per year to evaluate the trace element contamination of the environment. The water samples were collected using a Niskin bottle and Falcon tubes. The subsurface water quality parameters (temperature, salinity, dissolved oxygen and pH) were measured in-situ using a YSI-Exo2 multi-parameters probe; The methods used to record water parameters and nutrient concentrations as well as chlorophyll a concentrations are described by Fullgrabe et al. (2020) while the ones used to analyse organic pollutant concentrations (PCBs, PAHs) are described by Frantzen et al. (2016). The trace element contamination of the water samples was also analysed using ICP-OES (dilution to 1/5 for water samples and seawater standards, in 2 % nitric acid) and ICP-MS (dilution to 1/20 for water samples and seawater standards, in 2 % nitric acid).
+
+### QUALIPERTUIS
+For each day of sampling (D0, D07, D21, D30), the physico-chemical parameters of the water (Temperature (°C) and Salinity (PSU)) were measured using a HANNA probe (multiparameter HI9829). The probe was calibrated before each sampling period.
+        </markdown>
+      </samplingDescription>
+    </sampling>
+    <qualityControl>
+      <description>
+        <markdown>
+## QUAMPO Statistics analyses
+
+### Test on the pool technique
+To test the pool technique, the mean of the individual samples was compared to the results obtained with the pooled samples. The percentage of difference between these two values was compared for effect and biomarkers of exposure.
+
+### Biomarkers of effect
+Normality and homogeneity of variances were verified by Shapiro and Levene tests and data were log transformed to avoid heteroscedasticity if necessary.
+Pearson's and Spearman's (in case of heteroscedasticity) correlations between total and specific enzymatic activity responses were verified for all enzymes.
+In limpet and sea cucumber, two-way ANOVAs were used to test the effects of location and sampling period on the biomarkers of effect. When significant effects were found, a posteriori Tukey tests were used to compare means (Î± = 0.05). Except for LAC activity in limpet, no significant interaction between exposure and duration was found. Despite this absence of an interaction effect, analyses for simple main effects were then applied to the data (Tybout and Sternthal 2001). Student t-tests (or non-parametric Mann-Whitney Wilcoxon test) were applied to test the effect of sampling period on each location. One-way ANOVAs (or non-parametric Kruskall-Wallis tests) were performed to analyse the effect of location for each sampling period, followed by respectively Tukey or Mann-Whitney Wilcoxon post-hoc test when a significant effect was found. As mussel was found only in one location in January, Student t-tests (or non-parametric Mann-Whitney Wilcoxon test) were applied to test the effect of sampling period at St-Florent in this specie. One-way ANOVAs (or non-parametric Kruskall-Wallis tests), followed by respectively Tukey or Mann-Whitney Wilcoxon post-hoc test when a significant effect was found, were performed to analyse the effect of location in September on mussel.
+Finally, multi-correlations were run between all the biomarkers of effect and the morphometric parameters of individuals to visualize the link between the response of organism and its condition.
+
+### Biomarkers of exposure
+After validation of the pool technique in the January samples, the September samples were processed in pool. First, the normality and homogeneity of variances were verified as previously described. To analyse the effect of location in January, one-way ANOVAs (or non-parametric Kruskall-Wallis tests) were performed, followed by respectively Tukey or Mann-Whitney Wilcoxon post-hoc test when a significant effect was found.
+
+### Environmental parameters
+Graphs and analysis were done using R version 3.5.3 (R Core Team, 2018). All datasets were weekly regularized in order to obtain 48 data per year (four per month) using the pastecs R package (regul function) and applying a linear method (https://github.com/phgrosjean/pastecs). Average abundances over different time periods (year, month, week) were estimated along with standard deviation (±). Seasonal dynamics were described by integrating the time series over one year using boxplot diagrams in order to observe median, first and third quartiles, least values and outliers (described as data point standing 1.5 times outside the interquartile range above the upper quartile and below the lower quartile). Zooplankton seasonal dynamics of each group were further explored by computing the smoothed annual variation of the median, 10th and 90th percentiles of log10 transformed abundances, which allows to highlight both annual and interannual variability. Smoothing was performed using the lowess R function which uses locally-weighted polynomial regressions (Cleveland, 1981). Further on, cumulative relative abundances were computed over an average year in order to observe the average annual variation of the community structure. In order to describe the succession of the peaks of absolute or relative abundance of each group over an average year, a typical annual pattern was defined by performing a cluster analysis on zooplankton samples based on the complete linkage method using Bray-Curtis dissimilarity (vegan R package; Dray et al., 2007). Samples were grouped depending on both abundance and general composition similarities. A cut at a distance of 0.80 in the resulting dendrogram allowed to consider eight clusters, each resulting cluster suggesting a different community state. These eight community states were labelled A to H. A recursive partitioning using the rpart R package (Strobl et al., 2009) was then applied. The analysis used as criteria of classification both absolute and relative abundances of each zooplankton group, including the total. Each decision node of the resulting classification tree corresponded to a condition to which zooplankton samples might respond positively or not. From node to node, all zooplankton samples were classified in one of the eight community states. The succession of the main community states could then be observed over a typical year. A Multiple Factor Analysis (MFA) enables an integrative analysis of all parameters including factors and was performed to extract the main modes of relationships between community states, months, zooplankton and environmental time series. Cube root transformation was applied on zooplankton data in order to dampen the influence of highly abundant groups, whilst other variables were standardized to zero mean and scaled to unit variance. The interannual variability of the zooplankton community structure was explored by depicting the succession of the community states over the 13-year time series, along with the variation of annual anomalies of total zooplankton abundance as well as the weekly anomalies of water temperature. Finally, in order to further explore the underlying dynamics shaping the zooplankton community, particular emphasis was placed on the spring peak event, since it was found to be a major aspect characterizing the zooplankton annual variation in the Bay of Calvi (Dauby, 1980). Therefore we considered the abundance of the group responsible for the spring peak, i.e., calanoids, over the peak occurring period (from the first week of March to the third week of May). The 0.80 quantile values were computed to minimize the influence of extreme values and better represent the overall bell shape of the spring peak. To explore potential link between each of the environmental variables with the spring peak magnitude, temporal windows (between October and April) ranging from two to seven months were tested using Spearman's rank correlation coefficient. Relationships with the most correlated temporal windows were then modelled using linear or cubic spline regressions. Similarly, the relationship between spring peak magnitude and the winter North Atlantic Oscillation (NAO) index (downloaded from https: //climatedataguide.ucar.edu/climate-data/hurrell-north-atlantic- oscillation-nao-index-station-based) was also investigated.
+
+## QUALIPERTUIS Statistics analyses
+Statistical analysis is performed using R software (RStudio, version 1.4.1103) and Excel 2013. The data exploration is organized by seasons (7), sites (4) and sampling days (4). For all variables (five biomarkers (SOD, GST, MDA, AChE, LAC), two physicochemical water parameters (Salinity, Temperature)), the homogeneity of variances is assessed using Fligner-Killeen tests. Normality is also tested using a Shapiro-Wilk test. Several tests were then carried out to determine the most appropriate linear regression equation for each biomarker, taking into account each of the confounding factors (Press et al., 2013; Saporta 2006; Venables and Ripley, 2013). Thus, stable polynomial regression formulae were obtained for each biomarker and using these equations, predicted values and residuals were calculated for each biomarker. The residuals, measuring a deviation from the model, were classified into three groups for each biomarker using the k-means clustering method (Barrick et al., 2016; Devin et al. 2014). The resulting clusters were then used to determine, for each biomarker, the expected ranges of variation according to environmental conditions.
+
+
+
+        </markdown>
+      </description>
+    </qualityControl>
+</methods>
+<project>
+  <title>No project title to report</title>
+  <personnel>
+    <individualName>
+      <givenName>Helene</givenName>
+      <surName>Thomas</surName>
+    </individualName>
+    <organizationName>Laboratoire Littoral, Environnement et Sociétés (LIENSs)</organizationName>
+    <electronicMailAddress>helene.thomas@univ-lr.fr</electronicMailAddress>
+    <userId directory="https://orcid.org">https://orcid.org/0000-0002-7932-6841</userId>
+    <role>Principal Investigator</role>
+  </personnel>
+  <funding>
+    <para>Fonds Européen pour les Affaires Maritimes et la Pêche (FEAMP) (PFEA800219DM0940001) </para>
+    <para>Convention Industrielle de Formation par la REcherche (CIFRE) (2019/0030)</para>
+  </funding>
+</project>
+<dataTable>
+  <entityName>Field_organisms_samples.csv</entityName>
+  <entityDescription>Content of Field_organisms_samples.csv</entityDescription>
+  <physical>
+    <objectName>Field_organisms_samples.csv</objectName>
+    <size unit="bytes">95882</size>
+    <authentication method="MD5">4ddea7e077afd7088ff4ffd65699ad40</authentication>
+    <dataFormat>
+      <textFormat>
+        <numHeaderLines>1</numHeaderLines>
+        <recordDelimiter>\r\n</recordDelimiter>
+        <attributeOrientation>column</attributeOrientation>
+        <simpleDelimited>
+          <fieldDelimiter>;</fieldDelimiter>
+        </simpleDelimited>
+      </textFormat>
+    </dataFormat>
+  </physical>
+  <attributeList>
+    <attribute>
+      <attributeName>Field_organism_sample_ID</attributeName>
+      <attributeDefinition>Unique identifier of the collected organism or pool of organisms.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Unique identifier of the collected organism or pool of organisms.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Fieldwork_ID</attributeName>
+      <attributeDefinition>Unique identifier of the fieldwork carried out on a specific date and located at a specific station.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+             <definition>Unique identifier of the fieldwork carried out on a specific date and located at a specific station.</definition>
+           </textDomain>
+         </nonNumericDomain>
+       </nominal>
+     </measurementScale>
+   </attribute>
+   <attribute>
+    <attributeName>Field_organism_sample_species_name</attributeName>
+    <attributeDefinition>Species name of the sampled organism if known. If the species is not known, the genus name followed by sp. is used.</attributeDefinition>
+    <storageType>string</storageType>
+    <measurementScale>
+      <nominal>
+        <nonNumericDomain>
+          <enumeratedDomain>
+            <codeDefinition>
+              <code>Holothuria sp.</code>
+              <definition>Value: Holothuria sp. for attribute: Field_organism_sample_species_name</definition>
+            </codeDefinition>
+            <codeDefinition>
+              <code>Mimachlamys varia</code>
+              <definition>Value: Mimachlamys varia for attribute: Field_organism_sample_species_name</definition>
+            </codeDefinition>
+            <codeDefinition>
+              <code>Mytilus galloprovincialis</code>
+              <definition>Value: Mytilus galloprovincialis for attribute: Field_organism_sample_species_name</definition>
+            </codeDefinition>
+            <codeDefinition>
+              <code>Patella sp.</code>
+              <definition>Value: Patella sp. for attribute: Field_organism_sample_species_name</definition>
+            </codeDefinition>
+          </enumeratedDomain>
+        </nonNumericDomain>
+      </nominal>
+    </measurementScale>
+  </attribute>
+  <attribute>
+    <attributeName>TAXREF_ID</attributeName>
+    <attributeDefinition>Identifier of the sampled organism species if known according to the taxonomic repository TAXREF. If the species is not known, the genus given by the TAXREF is used, followed by sp..</attributeDefinition>
+    <storageType>string</storageType>
+    <measurementScale>
+      <nominal>
+        <nonNumericDomain>
+          <enumeratedDomain>
+            <codeDefinition>
+              <code>Holothuria sp.</code>
+              <definition>Value: Holothuria sp. for attribute: TAXREF_ID</definition>
+            </codeDefinition>
+            <codeDefinition>
+              <code>Mimachlamys varia</code>
+              <definition>Value: Mimachlamys varia for attribute: TAXREF_ID</definition>
+            </codeDefinition>
+            <codeDefinition>
+              <code>Mytilus galloprovincialis</code>
+              <definition>Value: Mytilus galloprovincialis for attribute: TAXREF_ID</definition>
+            </codeDefinition>
+            <codeDefinition>
+              <code>Patella sp.</code>
+              <definition>Value: Patella sp. for attribute: TAXREF_ID</definition>
+            </codeDefinition>
+          </enumeratedDomain>
+        </nonNumericDomain>
+      </nominal>
+    </measurementScale>
+  </attribute>
+  <attribute>
+    <attributeName>Lab_pool_ID</attributeName>
+    <attributeDefinition>Unique identifier of the pool of organism(s).</attributeDefinition>
+    <storageType>string</storageType>
+    <measurementScale>
+      <nominal>
+        <nonNumericDomain>
+          <textDomain>
+            <definition>Unique identifier of the pool of organism(s).</definition>
+          </textDomain>
+        </nonNumericDomain>
+      </nominal>
+    </measurementScale>
+  </attribute>
+</attributeList>
+<numberOfRecords>927</numberOfRecords>
+</dataTable>
+<dataTable>
+  <entityName>Fieldwork.csv</entityName>
+  <entityDescription>Content of Fieldwork.csv</entityDescription>
+  <physical>
+    <objectName>Fieldwork.csv</objectName>
+    <size unit="bytes">13728</size>
+    <authentication method="MD5">65b2516d631e355053d250b3bd049232</authentication>
+    <dataFormat>
+      <textFormat>
+        <numHeaderLines>1</numHeaderLines>
+        <recordDelimiter>\r\n</recordDelimiter>
+        <attributeOrientation>column</attributeOrientation>
+        <simpleDelimited>
+          <fieldDelimiter>;</fieldDelimiter>
+        </simpleDelimited>
+      </textFormat>
+    </dataFormat>
+  </physical>
+  <attributeList>
+    <attribute>
+      <attributeName>Fieldwork_ID</attributeName>
+      <attributeDefinition>Unique identifier of the fieldwork carried out on a specific date and located at a specific station.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Unique identifier of the fieldwork carried out on a specific date and located at a specific station.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_station_ID</attributeName>
+      <attributeDefinition>Accurate sampling location in a port.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Accurate sampling location in a port.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_date</attributeName>
+      <attributeDefinition>Date of the sampling.</attributeDefinition>
+      <storageType>date</storageType>
+      <measurementScale>
+        <dateTime>
+          <formatString>YYYY-MM-DD</formatString>
+          <dateTimeDomain/>
+        </dateTime>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Project_ID</attributeName>
+      <attributeDefinition>Acronym of the monetary fund used by the project linked to the identifying number of the project given by the monetary fund.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Acronym of the monetary fund used by the project linked to the identifying number of the project given by the monetary fund.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_month_value</attributeName>
+      <attributeDefinition>Month of the year in which the sampling took place.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Month of the year in which the sampling took place.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_year_value</attributeName>
+      <attributeDefinition>Year in which the sampling took place.</attributeDefinition>
+      <storageType>date</storageType>
+      <measurementScale>
+        <dateTime>
+          <formatString>YYYY</formatString>
+          <dateTimeDomain/>
+        </dateTime>
+      </measurementScale>
+    </attribute>
+  </attributeList>
+  <numberOfRecords>151</numberOfRecords>
+</dataTable>
+<dataTable>
+  <entityName>Project.csv</entityName>
+  <entityDescription>Content of Project.csv</entityDescription>
+  <physical>
+    <objectName>Project.csv</objectName>
+    <size unit="bytes">785</size>
+    <authentication method="MD5">029068073a20f3e5544e86d381fdd5cb</authentication>
+    <dataFormat>
+      <textFormat>
+        <numHeaderLines>1</numHeaderLines>
+        <recordDelimiter>\r\n</recordDelimiter>
+        <attributeOrientation>column</attributeOrientation>
+        <simpleDelimited>
+          <fieldDelimiter>;</fieldDelimiter>
+        </simpleDelimited>
+      </textFormat>
+    </dataFormat>
+  </physical>
+  <attributeList>
+    <attribute>
+      <attributeName>Project_ID</attributeName>
+      <attributeDefinition>Acronym of the monetary fund used by the project linked to the identifying number of the project given by the monetary fund.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Acronym of the monetary fund used by the project linked to the identifying number of the project given by the monetary fund.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Project_acronym</attributeName>
+      <attributeDefinition>Acronym of the scientific project from which the data are drawn.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Acronym of the scientific project from which the data are drawn.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Project_name</attributeName>
+      <attributeDefinition>Full name of the scientific project from which the data are drawn.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Full name of the scientific project from which the data are drawn.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Project_number_value</attributeName>
+      <attributeDefinition>Identifying number of the scientific project from which the data are drawn given by the monetary fund.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Identifying number of the scientific project from which the data are drawn given by the monetary fund.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Project_funding_name</attributeName>
+      <attributeDefinition>Origin of the monetary fund used by the project.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Origin of the monetary fund used by the project.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Project_coordinator_name</attributeName>
+      <attributeDefinition>Name of the project coordinator.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <enumeratedDomain>
+              <codeDefinition>
+                <code>La Rochelle Université</code>
+                <definition>Value: La Rochelle Université for attribute: Project_coordinator_name</definition>
+              </codeDefinition>
+            </enumeratedDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Project_coordinator_activity_keywords</attributeName>
+      <attributeDefinition>Field of work of the project coordinator.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Field of work of the project coordinator.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Project_beginning_date</attributeName>
+      <attributeDefinition>Start date of the project.</attributeDefinition>
+      <storageType>date</storageType>
+      <measurementScale>
+        <dateTime>
+          <formatString>YYYY-MM-DD</formatString>
+          <dateTimeDomain/>
+        </dateTime>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Project_end_date</attributeName>
+      <attributeDefinition>Date of the project completion.</attributeDefinition>
+      <storageType>date</storageType>
+      <measurementScale>
+        <dateTime>
+          <formatString>YYYY-MM-DD</formatString>
+          <dateTimeDomain/>
+        </dateTime>
+      </measurementScale>
+    </attribute>
+  </attributeList>
+  <numberOfRecords>2</numberOfRecords>
+</dataTable>
+<dataTable>
+  <entityName>Sampling_stations.csv</entityName>
+  <entityDescription>Sampling_stations.csv</entityDescription>
+  <physical>
+    <objectName>Sampling_stations.csv</objectName>
+    <size unit="bytes">1962</size>
+    <authentication method="MD5">fced076171efb098b02f0e3227433891</authentication>
+    <dataFormat>
+      <textFormat>
+        <numHeaderLines>1</numHeaderLines>
+        <recordDelimiter>\r\n</recordDelimiter>
+        <attributeOrientation>column</attributeOrientation>
+        <simpleDelimited>
+          <fieldDelimiter>;</fieldDelimiter>
+        </simpleDelimited>
+      </textFormat>
+    </dataFormat>
+  </physical>
+  <attributeList>
+    <attribute>
+      <attributeName>Sampling_station_ID</attributeName>
+      <attributeDefinition>Accurate sampling location in a site.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Accurate sampling location in a site.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_station_latitude_value</attributeName>
+      <attributeDefinition>Latitude of the sampling station.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>degree</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">42.07478</minimum>
+              <maximum exclusive="false">46.20382</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_station_longitude_value</attributeName>
+      <attributeDefinition>Longitude of the sampling station.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>degree</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">-1.19539</minimum>
+              <maximum exclusive="false">9.30593</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_station_geonames_name</attributeName>
+      <attributeDefinition>Longitude of the sampling station.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Longitude of the sampling station.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA is used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_station_common_name</attributeName>
+      <attributeDefinition>Name of the location of the sampling used by the researchers in their publications.</attributeDefinition>
+       <storageType>string</storageType>
+       <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Name of the location of the sampling used by the researchers in their publications.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_station_administrator_name</attributeName>
+      <attributeDefinition>First name and surname of the location administrator.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>First name and surname of the location administrator.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_station_label_name</attributeName>
+      <attributeDefinition>If applicable, the name of the environmental label(s) obtained by the location.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>If applicable, the name of the environmental label(s) obtained by the location.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA is used to signify an absence of label.</codeExplanation>
+      </missingValueCode>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_station_berth_number</attributeName>
+      <attributeDefinition>Number of berths in the port in 2018 according to the port administrator.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Number of berths in the port in 2018 according to the port administrator.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Sampling_station_municipality_name</attributeName>
+      <attributeDefinition>Municipality in which the location where the sampling took place is located.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Municipality in which the location where the sampling took place is located.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+  </attributeList>
+  <numberOfRecords>15</numberOfRecords>
+</dataTable>
+<dataTable>
+  <entityName>TAXREF.csv</entityName>
+  <entityDescription>Content of TAXREF.csv</entityDescription>
+  <physical>
+    <objectName>TAXREF.csv</objectName>
+    <size unit="bytes">89</size>
+    <authentication method="MD5">2ae58fe83b9b0a8ba61932947be75d0d</authentication>
+    <dataFormat>
+      <textFormat>
+        <numHeaderLines>1</numHeaderLines>
+        <recordDelimiter>\r\n</recordDelimiter>
+        <attributeOrientation>column</attributeOrientation>
+        <simpleDelimited>
+          <fieldDelimiter>,</fieldDelimiter>
+        </simpleDelimited>
+      </textFormat>
+    </dataFormat>
+  </physical>
+  <attributeList>
+    <attribute>
+      <attributeName>TAXREF_ID</attributeName>
+      <attributeDefinition>Identifier of the sampled organism species if known according to the taxonomic repository TAXREF. If the species is not known, the genus given by the TAXREF is used, followed by sp..</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Identifier of the sampled organism species if known according to the taxonomic repository TAXREF. If the species is not known, the genus given by the TAXREF is used, followed by sp..</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+  </attributeList>
+  <numberOfRecords>4</numberOfRecords>
+</dataTable>
+<dataTable>
+  <entityName>Water_samples_measurements.csv</entityName>
+  <entityDescription>Water_samples_measurements.csv</entityDescription>
+  <physical>
+    <objectName>Water_samples_measurements.csv</objectName>
+    <size unit="bytes">55049</size>
+    <authentication method="MD5">eeafa7536d922594288eb8c210e3ed52</authentication>
+    <dataFormat>
+      <textFormat>
+        <numHeaderLines>1</numHeaderLines>
+        <recordDelimiter>\r\n</recordDelimiter>
+        <attributeOrientation>column</attributeOrientation>
+        <simpleDelimited>
+          <fieldDelimiter>;</fieldDelimiter>
+        </simpleDelimited>
+      </textFormat>
+    </dataFormat>
+  </physical>
+  <attributeList>
+    <attribute>
+      <attributeName>Water_sample_ID</attributeName>
+      <attributeDefinition>Unique identifier of a water sample.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Unique identifier of a water sample.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>Fieldwork_ID</attributeName>
+      <attributeDefinition>Unique identifier of the fieldwork carried out on a specific date and located at a specific station.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Unique identifier of the fieldwork carried out on a specific date and located at a specific station.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+    <attribute id="att_watcel">
+      <attributeName>Water_subsurface_temperature_celsius</attributeName>
+      <attributeDefinition>Temperature of the subsurface water at the sampling station measured in celsius degrees.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>celsius</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">5.28</minimum>
+              <maximum exclusive="false">24.71</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="Celsius">http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Celsius</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_sal">
+      <attributeName>Water_subsurface_salinity_psu</attributeName>
+      <attributeDefinition>Salinity of the subsurface water at the sampling station measured in practical salinity unit.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>practicalSalinityUnit</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">22.87</minimum>
+              <maximum exclusive="false">38.45</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="Practical Salinity Unit">http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#PracticalSalinityUnit</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_oxy">
+      <attributeName>Water_subsurface_dissolved_oxygen_mg_per_L</attributeName>
+      <attributeDefinition>The concentration of oxygen in the subsurface water in mg per liter of water measured at the sampling station.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>milligramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">3.73</minimum>
+              <maximum exclusive="false">31.46</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="Dissolved oxygen">http://sweetontology.net/matr/DissolvedOxygen</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_ph">
+      <attributeName>Water_subsurface_pH</attributeName>
+      <attributeDefinition>The chemical activity of the protons in the subsurface water at the sampling station.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>dimensionless</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">7.68</minimum>
+              <maximum exclusive="false">8.99</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="pH">http://purl.obolibrary.org/obo/UO_0000196</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_turb">
+      <attributeName>Water_subsurface_turbidity_fnu</attributeName>
+      <attributeDefinition>Material content of the subsurface water at the sampling station measured in Formazin Nephelometric Unit.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>formazineNephelometricUnit</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">1</minimum>
+              <maximum exclusive="false">194</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="turbidity">http://sweetontology.net/propIndex/Turbidity</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_chloa">
+      <attributeName>Water_subsurface_chlorophyll_a_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of chlorophyll a measured in microgram per liter of subsurface water taken at the sampling station.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">0.18</minimum>
+              <maximum exclusive="false">2.94</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="chlorophyll-a concentration">http://purl.dataone.org/odo/ECSO_00000516</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_nitr">
+      <attributeName>Water_subsurface_nitrite_concentration_µM</attributeName>
+      <attributeDefinition>Concentration of nitrite measured in micromol per liter of subsurface water taken at the sampling station.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>micromolePerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">0.03</minimum>
+              <maximum exclusive="false">0.47</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD0.01</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD0.02</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LQ0.05</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="nitrite concentration in sewater">http://purl.dataone.org/odo/ECSO_00002254</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_nitrate">
+      <attributeName>Water_subsurface_nitrate_concentration_µM</attributeName>
+      <attributeDefinition>Concentration of nitrate measured in micromol per liter of subsurface water taken at the sampling station.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>micromolePerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">0.16</minimum>
+              <maximum exclusive="false">14.42</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD0.02</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="nitrate concentration">http://purl.dataone.org/odo/ECSO_00002216</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_silica">
+      <attributeName>Water_subsurface_silica_concentration_µM</attributeName>
+      <attributeDefinition>Concentration of silica measured in micromol per liter of subsurface water taken at the sampling station.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>micromolePerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">0.29</minimum>
+              <maximum exclusive="false">75.76</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD0.02</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD0.08</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LQ0.26</code>
+        <codeExplanation>LDn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LQ0.11</code>
+        <codeExplanation>LDn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="silica concentration in sewater">http://purl.dataone.org/odo/ECSO_00001898</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_phosphate">
+      <attributeName>Water_subsurface_phosphate_concentration_µM</attributeName>
+      <attributeDefinition>Concentration of phosphate measured in micromol per liter of subsurface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>micromolePerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">0.02</minimum>
+              <maximum exclusive="false">0.63</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ0.05</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="phosphate concentration">http://purl.dataone.org/odo/ECSO_00002328</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_ammonium">
+      <attributeName>Water_subsurface_ammonium_concentration_µM</attributeName>
+      <attributeDefinition>Concentration of ammonium measured in micromol per liter of subsurface water taken at the sampling station.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>micromolePerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">0.11</minimum>
+              <maximum exclusive="false">5.21</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD0.00</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD0.04</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD0.16</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="ammonium concentration">http://purl.dataone.org/odo/ECSO_00001116</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_silver">
+      <attributeName>Water_surface_Ag_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of silver in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="silver concentration">http://purl.dataone.org/odo/ECSO_00001802</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_alu">
+      <attributeName>Water_surface_Al_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of aluminium in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">223.5</minimum>
+              <maximum exclusive="false">223.5</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="aluminium level">http://purl.bioontology.org/ontology/RCD/X7718</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_ars">
+      <attributeName>Water_surface_As_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of arsenic in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">14.84</minimum>
+              <maximum exclusive="false">14.84</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="arsenic concentration">http://purl.dataone.org/odo/ECSO_00001766</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_bar">
+      <attributeName>Water_surface_Ba_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of barium in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="barium concentration">http://purl.dataone.org/odo/ECSO_00001768</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_cad">
+      <attributeName>Water_surface_Cd_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of cadmium in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="cadmium concentration">http://purl.dataone.org/odo/ECSO_00001875</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_cobalt">
+      <attributeName>Water_surface_Co_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of cobalt in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">1.02</minimum>
+              <maximum exclusive="false">1.66</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="cobalt concentration">http://purl.dataone.org/odo/ECSO_00001780</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_chromium">
+      <attributeName>Water_surface_Cr_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of chromium in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="chromium concentration">http://purl.dataone.org/odo/ECSO_00001778</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_copper">
+      <attributeName>Water_surface_Cu_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of copper in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">2.56</minimum>
+              <maximum exclusive="false">18.00</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="copper concentration">http://purl.dataone.org/odo/ECSO_00001782</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_iron">
+      <attributeName>Water_surface_Fe_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of iron in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ2500</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LQ250</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LQ500</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="iron concentration">http://purl.dataone.org/odo/ECSO_00001784</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_ind">
+      <attributeName>Water_surface_In_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of indium in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="indium">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C66827</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_mn">
+      <attributeName>Water_surface_Mn_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of manganese in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">1.10</minimum>
+              <maximum exclusive="false">18.94</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="manganese concentration">http://purl.dataone.org/odo/ECSO_00001792</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_molyb">
+      <attributeName>Water_surface_Mo_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of molybdenum in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">11.02</minimum>
+              <maximum exclusive="false">12.72</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="molybdenum concentration">http://purl.dataone.org/odo/ECSO_00001794</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_nickel">
+      <attributeName>Water_surface_Ni_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of nickel in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="nickel concentration">http://purl.dataone.org/odo/ECSO_00001796</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_lead">
+      <attributeName>Water_surface_Pb_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of lead in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">1.14</minimum>
+              <maximum exclusive="false">8.06</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="lead concentration">http://purl.dataone.org/odo/ECSO_00001786</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_tin">
+      <attributeName>Water_surface_Sb_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of tin in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">2.14</minimum>
+              <maximum exclusive="false">2.86</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="tin concentration">http://purl.dataone.org/odo/ECSO_00001812</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_selen">
+      <attributeName>Water_surface_Se_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of selenium in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">47.82</minimum>
+              <maximum exclusive="false">85.16</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="selenium">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C825</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_antimony">
+      <attributeName>Water_surface_Sn_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of antimony in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="antomony">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41185</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_vanad">
+      <attributeName>Water_surface_V_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of vanadium in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="vanadium concentration">http://purl.dataone.org/odo/ECSO_00001816</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_zinc">
+      <attributeName>Water_surface_Zn_concentration_µg_per_L</attributeName>
+      <attributeDefinition>Concentration of zinc in microgram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <standardUnit>microgramsPerLiter</standardUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ2500</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LQ250</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LQ500</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="zinc concentration">http://purl.dataone.org/odo/ECSO_00001818</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_napht">
+      <attributeName>Water_surface_naphthalene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of naphthalene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">6.8</minimum>
+              <maximum exclusive="false">65.4</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="naphtalene concentration">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29839</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_naphC1">
+      <attributeName>Water_surface_C1_naphthalene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. naphthalene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the napthalene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">11.4</minimum>
+              <maximum exclusive="false">13.2</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="naphtalene concentration">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29839</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_naphtC2">
+      <attributeName>Water_surface_C2_naphthalene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. naphthalene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the napthalene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">5.3</minimum>
+              <maximum exclusive="false">26.2</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="naphtalene concentration">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29839</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_naphtC3">
+      <attributeName>Water_surface_C3_naphthalene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. naphthalene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the napthalene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">5.2</minimum>
+              <maximum exclusive="false">23.2</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="naphtalene concentration">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29839</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_benzothio">
+      <attributeName>Water_surface_benzothiophene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of benzothiophene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="benzothiophene">http://purl.bioontology.org/ontology/MESH/C088015</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C1benz">
+      <attributeName>Water_surface_C1_benzothiophene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. benzothiophene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the benzothiophene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="benzothiophene">http://purl.bioontology.org/ontology/MESH/C088015</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C2benz">
+      <attributeName>Water_surface_C2_benzothiophene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. benzothiophene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the benzothiophene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="benzothiophene">http://purl.bioontology.org/ontology/MESH/C088015</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="C3benz">
+      <attributeName>Water_surface_C3_benzothiophene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. benzothiophene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the benzothiophene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="benzothiophene">http://purl.bioontology.org/ontology/MESH/C088015</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_biphenyl">
+      <attributeName>Water_surface_biphenyl_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of biphenyl in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="biphenyl">http://purl.obolibrary.org/obo/CHEBI_17097</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_acenapt">
+      <attributeName>Water_surface_acenapthtylene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of acenapthtylene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">2</minimum>
+              <maximum exclusive="false">2</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="acenaphthylene">http://purl.obolibrary.org/obo/CHEBI_33081</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_acena">
+      <attributeName>Water_surface_acenaphthene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of acenaphtene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="acenaphthene">http://purl.obolibrary.org/obo/CHEBI_22154</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_fluorene">
+      <attributeName>Water_surface_fluorene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of fluorene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">7.2</minimum>
+              <maximum exclusive="false">7.2</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="fluorene">http://purl.obolibrary.org/obo/CHEBI_28266</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C1fluorene">
+      <attributeName>Water_surface_C1_fluorene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. fluorene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the fluorene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="fluorene">http://purl.obolibrary.org/obo/CHEBI_28266</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C2fluorene">
+      <attributeName>Water_surface_C2_fluorene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. fluorene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the fluorene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">5.4</minimum>
+              <maximum exclusive="false">9.2</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="fluorene">http://purl.obolibrary.org/obo/CHEBI_28266</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C3fluorene">
+      <attributeName>Water_surface_C3_fluorene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. fluorene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the fluorene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">5.4</minimum>
+              <maximum exclusive="false">5.4</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="fluorene">http://purl.obolibrary.org/obo/CHEBI_28266</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_phenan">
+      <attributeName>Water_surface_phenanthrene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of phenanthrene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+    </attribute>
+    <attribute id="att_anthra">
+      <attributeName>Water_surface_anthracene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of anthracene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="phenanthrene concentration">http://purl.dataone.org/odo/ECSO_00003012</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C1phenan">
+      <attributeName>Water_surface_C1_phenanthrene_and_anthracene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. phenanthrene or anthracene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the phenanthrene or the anthracene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+    </attribute>
+    <attribute id="att_phenan2">
+      <attributeName>Water_surface_C2_phenanthrene_and_anthracene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. phenanthrene or anthracene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the phenanthrene or the anthracene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="phenanthrene concentration">http://purl.dataone.org/odo/ECSO_00003012</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C3phenan">
+      <attributeName>Water_surface_C3_phenanthrene_and_anthracene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. phenanthrene or anthracene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the phenanthrene or the anthracene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="phenanthrene concentration">http://purl.dataone.org/odo/ECSO_00003012</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="dibenz">
+      <attributeName>Water_surface_dibenzothiophene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of dibenzothiophene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="dibenzothiophene">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47484</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C1diben">
+      <attributeName>Water_surface_C1_dibenzothiophene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. dibenzothiophene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the dibenzothiophene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="dibenzothiophene">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47484</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C2dibenz">
+      <attributeName>Water_surface_C2_dibenzothiophene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. dibenzothiophene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the dibenzothiophene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="dibenzothiophene">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47484</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C3dibenz">
+      <attributeName>Water_surface_C3_dibenzothiophene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. dibenzothiophene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the dibenzothiophene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="dibenzothiophene">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47484</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_fluoran">
+      <attributeName>Water_surface_fluoranthene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of fluoranthene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="fluoranthene concentration">http://purl.dataone.org/odo/ECSO_00003010</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_pyrene">
+      <attributeName>Water_surface_pyrene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of pyrene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD0.30</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD1.50</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LQ5.00</code>
+        <codeExplanation>LDn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="pyrene concentration">http://purl.dataone.org/odo/ECSO_00003013</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="C1_fluranth">
+      <attributeName>Water_surface_C1_fluoranthene_and_pyrene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. fluoranthene or pyrene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the fluoranthene or the pyrene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="fluoranthene concentration">http://purl.dataone.org/odo/ECSO_00003010</valueURI>
+          </annotation>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="pyrene concentration">http://purl.dataone.org/odo/ECSO_00003013</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C2fluoran">
+      <attributeName>Water_surface_C2_fluoranthene_and_pyrene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. fluoranthene or pyrene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the fluoranthene or the pyrene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="fluoranthene concentration">http://purl.dataone.org/odo/ECSO_00003010</valueURI>
+          </annotation>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="pyrene concentration">http://purl.dataone.org/odo/ECSO_00003013</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C3fluora">
+      <attributeName>Water_surface_C3_fluoranthene_and_pyrene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. fluoranthene or pyrene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the fluoranthene or the pyrene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="fluoranthene concentration">http://purl.dataone.org/odo/ECSO_00003010</valueURI>
+          </annotation>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="pyrene concentration">http://purl.dataone.org/odo/ECSO_00003013</valueURI>
+          </annotation>
+    </attribute>
+    <attribute>
+      <attributeName>Water_surface_benz_a_anthracene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of benz[a]anthracene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+    </attribute>
+    <attribute id="att_chrys">
+      <attributeName>Water_surface_chrysene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of chrysene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">1.7</minimum>
+              <maximum exclusive="false">1.7</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="chrysene">http://purl.dataone.org/odo/ECSO_00003008</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C1chrys">
+      <attributeName>Water_surface_C1_chrysene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of molecules with a common empirical formula, i.e. chrysene with the addition of a methyl (CH3), but with a different structural formula, as the methyl may be bonded to different atoms of the chrysene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="chrysene">http://purl.dataone.org/odo/ECSO_00003008</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C2chrys">
+      <attributeName>Water_surface_C2_chrysene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. chrysene with the addition of two methyl (CH3) or one ethyl (C2H5), but with a different structural formula, as the methyls or the ethyl may be bonded to different atoms of the chrysene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="chrysene">http://purl.dataone.org/odo/ECSO_00003008</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_C3chrys">
+      <attributeName>Water_surface_C3_chrysene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration in nanogram per liter of surface water of a group of chemical molecules with a common empirical formula, i.e. chrysene plus three methyls (CH3), one ethyl (C2H5) and one methyl, or one propyl (C3H7), but with a different structural formula, as the methyls, the ethyl and the methyl, or the propyl may be bonded to different atoms of the chrysene.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="chrysene">http://purl.dataone.org/odo/ECSO_00003008</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_benzobkflur">
+      <attributeName>Water_surface_benzo_b_k_fluranthene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of benzo[b+k]fluranthene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">1.9</minimum>
+              <maximum exclusive="false">4.1</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="benzo(k)fluoranthene concentration">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44337</valueURI>
+          </annotation>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="benzo(b)fluoranthene concentration">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29810</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_benzoepyrene">
+      <attributeName>Water_surface_benzo_e_pyrene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of benzo[e]pyrene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">2.3</minimum>
+              <maximum exclusive="false">2.3</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="benzo(e)pyrene">http://purl.bioontology.org/ontology/MESH/C026487</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_benzoapyrene">
+      <attributeName>Water_surface_benzo_a_pyrene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of benzo[a]pyrene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">1</minimum>
+              <maximum exclusive="false">1</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is related to">https://schema.org/isRelatedTo</propertyURI>
+              <valueURI label="benzo(a)pyrene">http://purl.bioontology.org/ontology/MESH/D001564</valueURI>
+          </annotation>
+    </attribute>
+    <attribute>
+      <attributeName>Water_surface_perylene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of perylene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+            <bounds>
+              <minimum exclusive="false">1.1</minimum>
+              <maximum exclusive="false">1.1</maximum>
+            </bounds>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+    </attribute>
+    <attribute id="att_indenopyrene">
+      <attributeName>Water_surface_indeno_1_2_3_cd_pyrene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of indeno[1,2,3-cd]pyrene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="indeno[1,2,3-cd]pyrene concentration">http://purl.dataone.org/odo/ECSO_00003011</valueURI>
+          </annotation>
+    </attribute>
+    <attribute id="att_dibenzahpyrene">
+      <attributeName>Water_surface_dibenz_a_h_anthracene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of dibenz[a,h]pyrene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+    </attribute>
+    <attribute id="att_benzoghiperylene">
+      <attributeName>Water_surface_benzo_ghi_perylene_concentration_ng_per_L</attributeName>
+      <attributeDefinition>Concentration of benzo[ghi]perylene in nanogram per liter of surface water.</attributeDefinition>
+      <storageType>float</storageType>
+      <measurementScale>
+        <ratio>
+          <unit>
+            <customUnit>nanogramsPerLiter</customUnit>
+          </unit>
+          <numericDomain>
+            <numberType>real</numberType>
+          </numericDomain>
+        </ratio>
+      </measurementScale>
+      <missingValueCode>
+        <code>LQ</code>
+        <codeExplanation>LQn used to define a data below the quantitative limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>LD</code>
+        <codeExplanation>LDn used to define a data below the detection limit</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NP</code>
+        <codeExplanation>NP used to signify data are not public.</codeExplanation>
+      </missingValueCode>
+      <missingValueCode>
+        <code>NA</code>
+        <codeExplanation>NA used to signify an absence of information.</codeExplanation>
+      </missingValueCode>
+          <annotation>
+              <propertyURI label="is similar to">https://schema.org/isSimilarTo</propertyURI>
+              <valueURI label="benzo[ghi]perylene concentration">http://purl.dataone.org/odo/ECSO_00003007</valueURI>
+          </annotation>
+    </attribute>
+    <attribute>
+      <attributeName>Water_measurements_protocol_DOI</attributeName>
+      <attributeDefinition>Digital object identifier of the publication where the protocol followed for the water sampling may be found.</attributeDefinition>
+      <storageType>string</storageType>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>Digital object identifier of the publication where the protocol followed for the water sampling may be found.</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
+  </attributeList>
+  <numberOfRecords>133</numberOfRecords>
+  </dataTable>
+  <otherEntity>
+		<entityName>ConceptualDataModel.jpg</entityName>
+		<entityType>image/png</entityType>
+  </otherEntity>
+  <otherEntity>
+  	<entityName>WIBE_Data_Dictionary.csv</entityName>
+		<entityType>text/csv</entityType>
+  </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit name="practicalSalinityUnit" unitType="dimensionless" id="practicalSalinityUnit" parentSI="" multiplierToSI="1.0" constantToSI="0.0"/>
+        <unit name="formazineNephelometricUnit" unitType="dimensionless" id="formazineNephelometricUnit" parentSI="" multiplierToSI="1.0" constantToSI="0.0"/>
+        <unit name="micromolePerLiter" unitType="spatialDensity" id="micromolePerLiter" parentSI="molePerLiter" multiplierToSI="0.000001" constantToSI="0.0"/>
+        <unit name="nanogramsPerLiter" unitType="spatialDensity" id="nanogramsPerLiter" parentSI="gramsPerLiter" multiplierToSI="0.000000001" constantToSI="0.0"/>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
+

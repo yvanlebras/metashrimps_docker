@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+  <id>Title.length</id>
+  <name>Check of title presence and length</name>
+  <description>Check that the ressource title exist and have a length between 6 and 20 words</description>
+  <type>findable</type>  
+  <level>REQUIRED</level>
+  <environment>rscript</environment>
+  <code><![CDATA[
+
+      if (length(Title) <= 0) {
+        status <- "FAILURE"
+        message <-"No title were found."
+      } else {
+      wordcount=length(unlist(strsplit(Title, "\\s+", perl=T)))
+      if (wordcount<6){
+        status <- "FAILURE"
+        message <-paste0("The title is to short (",wordcount,"words), it is recommended to be at minimum 6 words long")
+      }
+      else if (wordcount>20){
+        status <- "FAILURE"
+        message <-"The title is to long, it should be at maximum 20 words long"
+      }
+      else {
+      status <- "SUCCESS"
+      message <-"The title is present and is of sufficient length"
+      }
+      }
+      mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+    ]]></code>
+    <selector>
+      <name>Title</name>
+      <xpath>/*[local-name() = 'eml']/dataset/title </xpath>
+    </selector>
+    <dialect>
+      <name>Ecological Metadata Language</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    </mdq:check>
+    

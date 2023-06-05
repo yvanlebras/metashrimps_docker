@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>annotations.presence</id>
+    <name>Presence of Annotations</name>
+    <description>Check the presence of Annotations</description>
+    <type>findable</type>  
+    <level>REQUIRED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+      
+      # Check that <annotation> section(s) are presents for the dataset.
+      if(annotationPresence<=0) {
+        status <- "FAILURE"
+        message <-"Annotations are missing."
+      } else {
+        if (length(annotations)==1){
+          annotations=list(annotations)
+        }
+        status <- "SUCCESS"
+        if (length(annotations)>3){
+        message <-paste0(annotationPresence," annotations were found : ",paste(annotations[0:3],collapse=', ')," and ",annotationPresence-3," others.")
+        }else {
+          message <-paste0(annotationPresence," annotations were found : ",paste(annotations[0:3],collapse=', '),".")
+        }
+      }
+      mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+    ]]></code>
+    <selector>
+    <name>annotationPresence</name>
+    <xpath>count(/*[local-name() = 'eml']/dataset/annotation) </xpath>
+    </selector>
+        <selector>
+    <name>annotations</name>
+    <xpath>/*[local-name() = 'eml']/dataset/annotation/valueURI/@label </xpath>
+    </selector>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    </mdq:check>
+    

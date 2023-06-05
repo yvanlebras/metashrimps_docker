@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="ijtest3" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" system="unknown">
+  <dataset>
+    <title>ijtest3</title>
+    <creator>
+      <individualName>
+        <givenName>Yvan</givenName>
+        <surName>Le Bras</surName>
+      </individualName>
+      <organizationName>Muséum National d'Histoire Naturelle</organizationName>
+      <electronicMailAddress>yvan.le-bras@mnhn.fr</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8504-068X</userId>
+    </creator>
+    <pubDate>2023-04-27</pubDate>
+    <abstract>
+      <para>abstrac
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>testt</keyword>
+    </keywordSet>
+    <additionalInfo>
+      <para>
+</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2023-04-26</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2023-04-27</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Balaenopteridae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5313</taxonId>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Kogiidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5317</taxonId>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Physeteridae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5446</taxonId>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Balaenopteridae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Balaenoptera</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440708</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Balaenoptera acutorostrata</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440728</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Balaenopteridae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Balaenoptera</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440708</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Balaenoptera borealis</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440709</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Balaenopteridae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Balaenoptera</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440708</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Balaenoptera edeni</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440714</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Balaenopteridae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Balaenoptera</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440708</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Balaenoptera physalus</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440718</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Balaenopteridae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Megaptera</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440748</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Megaptera novaeangliae</taxonRankValue>
+                      <taxonId provider="https://gbif.org">5220086</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Feresa</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440529</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Feresa attenuata</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440530</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Globicephala</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440595</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Globicephala macrorhynchus</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440605</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Grampus</taxonRankValue>
+                    <taxonId provider="https://gbif.org">5220026</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Grampus griseus</taxonRankValue>
+                      <taxonId provider="https://gbif.org">5220027</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Lagenodelphis</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440492</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Lagenodelphis hosei</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440493</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Orcinus</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440482</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Orcinus orca</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440483</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Peponocephala</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440469</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Peponocephala electra</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440470</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Pseudorca</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440439</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Pseudorca crassidens</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440440</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Stenella</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440546</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Stenella attenuata</taxonRankValue>
+                      <taxonId provider="https://gbif.org">5220050</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Stenella</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440546</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Stenella clymene</taxonRankValue>
+                      <taxonId provider="https://gbif.org">5220064</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Stenella</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440546</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Stenella frontalis</taxonRankValue>
+                      <taxonId provider="https://gbif.org">5220045</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Stenella</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440546</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Stenella longirostris</taxonRankValue>
+                      <taxonId provider="https://gbif.org">5220060</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Steno</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440432</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Steno bredanensis</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440433</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Delphinidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5314</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Tursiops</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440446</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Tursiops truncatus</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440447</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Kogiidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5317</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Kogia</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440690</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Kogia breviceps</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440694</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Kogiidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5317</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Kogia</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440690</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Kogia sima</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440691</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Physeteridae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5446</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Physeter</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440349</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Physeter macrocephalus</taxonRankValue>
+                      <taxonId provider="https://gbif.org">8123917</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Hyperoodontidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5316</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Mesoplodon</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440393</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Mesoplodon densirostris</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440403</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Hyperoodontidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5316</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Mesoplodon</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440393</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Mesoplodon mirus</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440417</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Mammalia</taxonRankValue>
+              <taxonId provider="https://gbif.org">359</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Cetacea</taxonRankValue>
+                <taxonId provider="https://gbif.org">733</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Hyperoodontidae</taxonRankValue>
+                  <taxonId provider="https://gbif.org">5316</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Ziphius</taxonRankValue>
+                    <taxonId provider="https://gbif.org">2440368</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Ziphius cavirostris</taxonRankValue>
+                      <taxonId provider="https://gbif.org">2440369</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankValue>Ziphiidae</taxonRankValue>
+          <taxonId provider="gbif"/>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankValue>Stenalla coeruleoalba</taxonRankValue>
+          <taxonId provider="gbif"/>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankValue>Mesoplodon europeaus</taxonRankValue>
+          <taxonId provider="gbif"/>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Yvan</givenName>
+        <surName>Le Bras</surName>
+      </individualName>
+      <organizationName>Muséum National d'Histoire Naturelle</organizationName>
+      <electronicMailAddress>yvan.le-bras@mnhn.fr</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8504-068X</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <markdown>methofsd
+</markdown>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>datafile_2.tsv</entityName>
+      <entityDescription>Content of datafile_2.tsv</entityDescription>
+      <physical>
+        <objectName>datafile_2.tsv</objectName>
+        <size unit="bytes">21706</size>
+        <authentication method="MD5">1272d401f6c5b92d8923d7d62c1128b4</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>code_obs</attributeName>
+          <attributeDefinition>Description for: code_obs</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: code_obs</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date_obs</attributeName>
+          <attributeDefinition>Description for: date_obs</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM-DD-YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time_obs</attributeName>
+          <attributeDefinition>Description for: time_obs</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: time_obs</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeDefinition>Description for: latitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">45.8179</minimum>
+                  <maximum exclusive="false">46.5602</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeDefinition>Description for: longitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-5.0327</minimum>
+                  <maximum exclusive="false">-3.8678</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>area_name</attributeName>
+          <attributeDefinition>Description for: area_name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: area_name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>taxon_name</attributeName>
+          <attributeDefinition>Description for: taxon_name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: taxon_name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>293</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>LakeGeneva_phytoplankton_1974-2004.nc</entityName>
+      <entityDescription>Content of LakeGeneva_phytoplankton_1974-2004.nc</entityDescription>
+      <physical>
+        <objectName>datafile_1.tsv</objectName>
+        <size unit="bytes">4812</size>
+        <authentication method="MD5">c711d181aea6f733790a95ee35bc5995</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Id</attributeName>
+          <attributeDefinition>Description for: Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>density_boats</attributeName>
+          <attributeDefinition>Description for: density_boats</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">41.24173899</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>distance_coast</attributeName>
+          <attributeDefinition>Description for: distance_coast</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">37.17890687</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>percentage_turbidity</attributeName>
+          <attributeDefinition>Description for: percentage_turbidity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nb_individual</attributeName>
+          <attributeDefinition>Description for: nb_individual</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>recorder</attributeName>
+          <attributeDefinition>Description for: recorder</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">3760</minimum>
+                  <maximum exclusive="false">17608</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>min_t</attributeName>
+          <attributeDefinition>Description for: min_t</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">8.1</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>max_wind</attributeName>
+          <attributeDefinition>Description for: max_wind</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">30</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>112</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>datafile_1.tsv</entityName>
+      <entityDescription>Content of datafile_1.tsv</entityDescription>
+      <physical>
+        <objectName>LakeGeneva_phytoplankton_1974-2004.nc</objectName>
+        <size unit="bytes">168970</size>
+        <authentication method="MD5">082d1bb0fcd29059adf5da73fb32ddf9</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>NetCDF</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Var0</attributeName>
+          <attributeDefinition>volume per volume of phytoplankton in micrometer cubed per milliliter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Var0Dim0</attributeName>
+          <attributeDefinition>lower depth relative to surface of Waypoint in meter</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lower depth relative to surface of Waypoint in meter</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Var0Dim1</attributeName>
+          <attributeDefinition>date of time instant in ISO 8601 DateTime</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>date of time instant in ISO 8601 DateTime</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Var0Dim2</attributeName>
+          <attributeDefinition>taxon name of phytoplankton in AlgaeBase</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>taxon name of phytoplankton in AlgaeBase</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <spatialRaster>
+      <entityName>c41078a1.tiff</entityName>
+      <entityDescription>Content of c41078a1.tiff</entityDescription>
+      <physical>
+        <objectName>c41078a1.tiff</objectName>
+        <size>15777806</size>
+        <authentication method="MD5">843487a5f7290754aa94d383d4473669</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>GeoTiff</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>c41078a1</attributeName>
+          <attributeDefinition>Description for: c41078a1</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>GCS_WGS_1984</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Unknown</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>25.400001</cellSizeXDirection>
+      <cellSizeYDirection>25.400001</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>5593</rows>
+      <columns>7202</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialVector>
+      <entityName>Basin042017_3119</entityName>
+      <entityDescription>Content of Basin042017_3119</entityDescription>
+      <physical>
+        <objectName>Basin042017_3119</objectName>
+        <size>4096</size>
+        <authentication method="MD5">106983da63865d20bc78e16e30fc00eb</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Shapefile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>BasinName</attributeName>
+          <attributeDefinition>Description for: BasinName</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: BasinName</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Country</attributeName>
+          <attributeDefinition>Description for: Country</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: Country</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ecoregion</attributeName>
+          <attributeDefinition>Description for: Ecoregion</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: Ecoregion</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Endorheic</attributeName>
+          <attributeDefinition>Description for: Endorheic</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: Endorheic</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Out_Longit</attributeName>
+          <attributeDefinition>Description for: Out_Longit</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-176.441085</minimum>
+                  <maximum exclusive="false">178.48584</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Out_Latit</attributeName>
+          <attributeDefinition>Description for: Out_Latit</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-54.4092825829</minimum>
+                  <maximum exclusive="false">82.6424899772</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Med_Longit</attributeName>
+          <attributeDefinition>Description for: Med_Longit</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-176.477638282</minimum>
+                  <maximum exclusive="false">178.264597223</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Med_Latit</attributeName>
+          <attributeDefinition>Description for: Med_Latit</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-54.5454854472</minimum>
+                  <maximum exclusive="false">82.2982309948</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Surf_area</attributeName>
+          <attributeDefinition>Description for: Surf_area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.70764205504</minimum>
+                  <maximum exclusive="false">5888416.91564</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>3119</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysName>GCS_WGS_1984</horizCoordSysName>
+      </spatialReference>
+    </spatialVector>
+    <spatialVector>
+      <entityName>testgispelagis.geojson</entityName>
+      <entityDescription>Content of testgispelagis.geojson</entityDescription>
+      <physical>
+        <objectName>testgispelagis.geojson</objectName>
+        <size>717058</size>
+        <authentication method="MD5">46e71a1d1abd3c8476e7235f0e7a3806</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>GeoJson</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeDefinition>Description for: species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: species</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Description for: date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>id: MM, properties: { species: Balaenoptera acutorostrata</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>code_zone</attributeName>
+          <attributeDefinition>Description for: code_zone</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: code_zone</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>observer</attributeName>
+          <attributeDefinition>Description for: observer</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: observer</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>city</attributeName>
+          <attributeDefinition>Description for: city</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: city</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeDefinition>Description for: latitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">41.37042</minimum>
+                  <maximum exclusive="false">51.083</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeDefinition>Description for: longitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-5.093</minimum>
+                  <maximum exclusive="false">9.54269</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>data_produ</attributeName>
+          <attributeDefinition>Description for: data_produ</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: data_produ</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>data_admin</attributeName>
+          <attributeDefinition>Description for: data_admin</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Description for: data_admin</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cdNom</attributeName>
+          <attributeDefinition>Description for: cdNom</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">60970</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Point</geometry>
+      <geometricObjectCount>1758</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysName>GCS_WGS_1984</horizCoordSysName>
+      </spatialReference>
+    </spatialVector>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor>
+        <app>EMLassemblyline</app>
+        <release>3.5.5</release>
+      </emlEditor>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

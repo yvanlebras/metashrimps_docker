@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>spatial.extent.description</id>
+    <name>Presence of textual description of the Geographical Coverage</name>
+    <description>Check if a description of the Geographical Coverage is present.</description>
+    <type>findable</type>  
+    <level>RECOMMENDED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+      if(!DescriptionPresence) {
+        status <- "WARNING"
+        message <- "A description of the geographic coverage of this dataset is missing."
+      } else if (class(SpatialDescription)!="character"){
+        status <- "WARNING"
+        message <- "The description of the geographic coverage of this dataset is not textual."
+      }else {
+        status <- "SUCCESS"
+        message <- "A textual description of the geographic coverage of this dataset is present."
+      }
+      mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+    ]]></code>
+    <selector>
+    <name>DescriptionPresence</name>
+    <xpath>boolean(/*[local-name() = 'eml']/dataset/coverage/geographicCoverage/geographicDescription) </xpath>
+    </selector>
+    <selector>
+    <name>SpatialDescription</name>
+    <xpath>/*[local-name() = 'eml']/dataset/coverage/geographicCoverage/geographicDescription </xpath>
+    </selector>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    </mdq:check>
+    

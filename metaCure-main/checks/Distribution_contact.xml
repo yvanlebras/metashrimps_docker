@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <mdq:check xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+    <id>distribution.contact.presence</id>
+    <name>Presence of Distribution Contacts</name>
+    <description>Check if Distribution Contacts are present </description>
+    <type>accessible</type>  
+    <level>RECOMMENDED</level>
+    <environment>rscript</environment>
+    <code><![CDATA[
+    #We remove all duplicated names
+    Distributioncontact=Distributioncontact[!duplicated(Distributioncontact)]
+      if(length(Distributioncontact)==0){
+        status <- "FAILURE"
+        message <- "There is no distribution contacts."
+      } else if (length(Distributioncontact)>3){
+        status <- "SUCCESS"
+        message <- paste0(length(Distributioncontact)," different distribution contacts were found: ", paste(Distributioncontact[1:3],collapse='/')," ...")
+      }else {
+        status <- "SUCCESS"
+        message <- paste0(length(Distributioncontact)," different distribution contacts were found: ", paste(Distributioncontact,collapse='/'))
+      }
+      mdq_result <- list(status = status,
+                         output = list(list(value = message)))
+    ]]></code>
+    <selector>
+    <name>Distributioncontact</name>
+    <xpath>/*[local-name() = 'eml']/*/associatedParty/role[RoleType='distributor']//text()[normalize-space()] |
+          /*[local-name() = 'eml']/*/contact/individualName/surName/text()[normalize-space()] |
+          /*[local-name() = 'eml']/*/contact/organizationName/text()[normalize-space()]</xpath>
+    </selector>
+    <dialect>
+    <name>Ecological Metadata Language</name>
+    <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+    </mdq:check>
+    
